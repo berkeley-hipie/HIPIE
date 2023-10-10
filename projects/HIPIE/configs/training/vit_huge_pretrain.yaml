@@ -1,0 +1,18 @@
+# Stage2: Image-level joint training (32 GPUs for ViT-huge)
+_BASE_: "r50_pretrain.yaml"
+MODEL:
+  WEIGHTS: ""
+  BACKBONE:
+    NAME: "D2ViT"
+  VIT:
+    NAME: "ViT-huge"
+    USE_CHECKPOINT: True
+  LANGUAGE_BACKBONE:
+    MAX_QUERY_LEN: 512
+  MAX_INSTANCES: 150
+SOLVER:
+  # IMS_PER_BATCH: 2 # batch-per-gpu = 2
+  STEPS: (312346,) # 2x (20/24)
+  MAX_ITER: 340741
+  IMS_PER_BATCH: 8
+OUTPUT_DIR: "outputs/image_joint_vit_huge_32g_pretrain"

@@ -1,0 +1,96 @@
+# Stage2: Image-level joint training (16 GPUs)
+MODEL:
+  USE_IOU_BRANCH: True
+  LANG_GUIDE_DET: True
+  DECOUPLE_TGT: True
+  STILL_TGT_FOR_BOTH: True
+  META_ARCHITECTURE: "HIPIE_IMG"
+  WEIGHTS: "outputs/image_joint_r50/model_final.pth"
+  PIXEL_MEAN: [123.675, 116.280, 103.530]
+  PIXEL_STD: [58.395, 57.120, 57.375]
+  MASK_ON: True
+  OBJECT_MASK_THRESHOLD: 0.25
+  POINT_SAMPLE: True
+  OVERLAP_THRESHOLD: 0.8
+  OTA: True
+  STILL_CLS_FOR_ENCODER: True
+  MODE_FREE_MATCHING_INFERENCE: false
+  PARALLEL_DET: False
+  CLIP:
+      ENABLED: False
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+    OUT_FEATURES: ["res3", "res4", "res5"]
+  MASKDINO:
+    ENABLED: on
+    CONFIG_PATH:  'projects/HIPIE/configs/mask_dino/maskdino_R50_bs16_50ep_3s_dowsample1_2048.yaml'
+    PRETRAINED: ''
+    SHARE_CLS_HEAD: False
+  DDETRS:
+    FINAL_BG_WEIGHT: 0.0 # DROPPED
+    FINAL_GT_WEIGHT: 1.0
+    MASK_WEIGHT: 5.0
+    CLASS_WEIGHT: 2.0
+    BG_CLASS_WEIGHT: 2.0
+    BG_DICE_WEIGHT: 5.0
+    BG_MASK_WEIGHT: 5.0
+    NUM_OBJECT_QUERIES: 900 # FG
+    TWO_STAGE_NUM_PROPOSALS: 900
+    TWO_STAGE_NUM_BG_PROPOSALS: 10 # have some number so model is happy
+    FORCE_NO_LOC: false
+    DP_NUMBER: 0
+    USE_DINO: True
+    DYNAMIC_LABEL_ENC: True
+    DROPOUT: 0.0
+    TWO_STAGE: True
+    MIXED_SELECTION: True
+    LOOK_FORWARD_TWICE: True
+  LANGUAGE_BACKBONE:
+    MAX_QUERY_LEN: 1024
+DATASETS:
+  TRAIN: ("pascal_parts_train","coco_2017_train_panoptic_with_sem_seg", "refcoco-mixed") # , "refcoco-mixed"
+  TEST: ("pascal_parts_val",) # "coco_2017_test-dev"  "refcoco-unc-val" # "coco_2017_val_panoptic_with_sem_seg",
+  # "refcoco-unc-testA", "refcoco-unc-testB", "refcocoplus-unc-val", "refcocoplus-unc-testA", "refcocoplus-unc-testB", "refcocog-umd-val", "refcocog-umd-test"
+FIND_UNUSED_PARAMETERS: False
+SOLVER:
+  IMS_PER_BATCH: 32 # batch-per-gpu = 2
+  BASE_LR: 0.0001 # 2e-4
+  VL_LR: 0.0001 # 2e-4
+  STEPS: (10000,40000) #(76658,) # 2x (20/24)
+  MAX_ITER: 50990
+  WARMUP_FACTOR: 0.0
+  WARMUP_ITERS: 2000 
+  WEIGHT_DECAY: 0.01
+  OPTIMIZER: "ADAMW"
+  BACKBONE_MULTIPLIER: 0.1
+  CLIP_GRADIENTS:
+    ENABLED: True
+    CLIP_TYPE: "full_model"
+    CLIP_VALUE: 0.1
+    NORM_TYPE: 2.0
+  CHECKPOINT_PERIOD: 1000
+INPUT:
+  MIN_SIZE_TRAIN: (1024,)
+  MIN_SIZE_TEST: 1024
+  MAX_SIZE_TEST: 2048
+  CROP:
+    ENABLED: True
+    TYPE: "absolute_range"
+    SIZE: (384, 1024) #not used, hardcoded LSJ
+  FORMAT: "RGB"
+TEST:
+  EVAL_PERIOD: 5000
+  USE_BG_FOR_PANO_ON: off
+  MAX_POOL: on
+DATALOADER:
+  SAMPLER_TRAIN: "MultiDatasetSampler"
+  DATASET_RATIO: [1, 1,1]
+  USE_DIFF_BS_SIZE: True
+  DATASET_BS: [2, 2,2]
+  # DATASET_INPUT_SIZE: [640, 320]
+  USE_RFS:  [False, False,False]
+  FILTER_EMPTY_ANNOTATIONS: True
+  NUM_WORKERS: 2
+VERSION: 2
+OUTPUT_DIR: outputs/image_joint_r50_pan

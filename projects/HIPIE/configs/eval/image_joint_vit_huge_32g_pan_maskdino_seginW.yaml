@@ -1,0 +1,19 @@
+# Stage2: Image-level joint training (32 GPUs for ViT-huge)
+_BASE_: "image_joint_r50_pan_maskdino_seginW.yaml"
+MODEL:
+  WEIGHTS: "outputs/image_joint_vit_huge_32g/model_final.pth"
+  BACKBONE:
+    NAME: "D2ViT"
+  VIT:
+    NAME: "ViT-huge"
+    USE_CHECKPOINT: True
+  LANGUAGE_BACKBONE:
+    MAX_QUERY_LEN: 1024
+SOLVER:
+  # IMS_PER_BATCH: 2 # batch-per-gpu = 2
+  #STEPS: (40000,) # 2x (20/24)
+  #MAX_ITER: 48000
+  STEPS: (55100,84000) #(76658,) # 2x (20/24)
+  MAX_ITER: 91990
+  
+OUTPUT_DIR: "outputs/image_joint_vit_huge_32g"

@@ -1,0 +1,29 @@
+# Stage2: Image-level joint training (32 GPUs for ViT-huge)
+_BASE_: "r50.yaml"
+MODEL:
+  WEIGHTS: ""
+  LANGUAGE_BACKBONE:
+    MAX_QUERY_LEN: 512
+  MAX_INSTANCES: 150
+SOLVER:
+  # IMS_PER_BATCH: 2 # batch-per-gpu = 2
+  STEPS: (312346,) # 2x (20/24)
+  MAX_ITER: 340741
+  IMS_PER_BATCH: 8
+OUTPUT_DIR: "outputs/image_joint_r50_pretrain"
+DATASETS:
+  TRAIN: ("coco_2017_train_panoptic_with_sem_seg","refcoco-mixed","objects365_v2_train_segm") # , "refcoco-mixed" "paco_ego4d_train","paco_lvis_train"
+  TEST: ("coco_2017_val_panoptic_with_sem_seg","refcocoplus-unc-val",) # "coco_2017_test-dev"  "refcoco-unc-val" # "coco_2017_val_panoptic_with_sem_seg",
+INPUT:
+  MIN_SIZE_TRAIN: (1024,600,800)
+  MIN_SIZE_TEST: 1024
+  MAX_SIZE_TEST: 2048
+  CROP_SIZE: 1024
+TEST:
+  EVAL_PERIOD: 0
+  EVAL_AFTER_TRAIN: False
+DATALOADER:
+  DATASET_RATIO: [1,1,1 ]
+  USE_DIFF_BS_SIZE: True
+  DATASET_BS: [2,2,2]
+  USE_RFS: [False,False,False]

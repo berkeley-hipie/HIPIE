@@ -1,0 +1,83 @@
+# output dir
+output
+instant_test_output
+inference_test_output
+
+notebooks
+*.png
+*.json
+*.diff
+*.jpg
+*.tar
+!/projects/DensePose/doc/images/*.jpg
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.ts
+model_ts*.txt
+
+# ipython/jupyter notebooks
+#*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# editor settings
+.idea
+.vscode
+_darcs
+
+# project dirs
+/detectron2/model_zoo/configs
+/datasets/*
+!/datasets/*.*
+/projects/*/datasets
+/models
+/snippet
+outputs/
+weights/
+wandb/
+projects/HIPIE/bert-base-uncased/
+# .txt
+# *.txt*
+
+*.zip
+*.npz
+
+events.*
+
+*.bin
+
+last_checkpoint
+
+OVIS
+
+*.csv
+
+config.yaml
+
+*.tar.gz
+*.mp4
+datasets
+outputs
+tmp.sh
+queue.sh
+public
