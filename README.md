@@ -93,7 +93,7 @@ with released weights, on should be able to reproduce following results
     <td >MIoU</td>
   </tr>
   <tr>
-   <td> O365, COCO, RefCOCC/+/g,PACO</td>
+   <td> O365, COCO, RefCOCO/+/g,PACO</td>
     <td >60.4</td>
     <td >51.1</td>
     <td >65.6</td>
@@ -111,7 +111,7 @@ with released weights, on should be able to reproduce following results
     <td >9.7</td>
   </tr>
   <tr>
-   <td> O365*, COCO, RefCOCC/+/g</td>
+   <td> O365*, COCO, RefCOCO/+/g</td>
     <td >61.3</td>
     <td >51.9</td>
     <td >66.8</td>
