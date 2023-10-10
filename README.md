@@ -6,7 +6,8 @@ We present **HIPIE**, a novel HIerarchical, oPen-vocabulary and unIvErsal image 
 
 > [**Hierarchical Open-vocabulary Universal Image Segmentation**](http://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/)            
 > [Xudong Wang*](https://people.eecs.berkeley.edu/~xdwang/), [Shufan Li*](https://homepage.jackli.org/), [Konstantinos Kallidromitis*](https://tech-ai.panasonic.com/en/researcher_introduction/048/), Yusuke Kato, Kazuki Kozuka, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)            
-> Berkeley AI Research, UC Berkeley; Panasonic AI Research            
+> Berkeley AI Research, UC Berkeley; Panasonic AI Research    
+> NeurIPS 2023
 
 [[`project page`](http://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/)] [[`arxiv`](https://arxiv.org/abs/2307.00764)] [[`paper`](https://arxiv.org/pdf/2307.00764.pdf)] [[`bibtex`](#citation)]
 
