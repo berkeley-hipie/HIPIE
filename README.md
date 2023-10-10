@@ -53,7 +53,7 @@ python3 launch.py --nn 1 --np 8 --uni 1 --config-file projects/HIPIE/configs/<co
 Alternatively, one can run
 
 ```
-python3 launch.py --nn 1 --np 8 --uni 1 --config-file projects/HIPIE/configs/<config file> --eval-only --name old-pas MODEL.WEIGHTS < checkpoint to load >
+python3 launch.py --nn 1 --np 8 --uni 1 --config-file projects/HIPIE/configs/<config file> --eval-only --resume OUTPUT_DIR < folder with checkpoints >
 ```
 
 with released weights, on should be able to reproduce following results
