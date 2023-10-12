@@ -1,6 +1,6 @@
 # HIPIE: Hierarchical Open-vocabulary Universal Image Segmentation
 
-We present **HIPIE**, a novel HIerarchical, oPen-vocabulary and unIvErsal image segmentation and detection model that is capable of performing segmentation tasks at various levels of granularities (whole, part and subpart) and tasks, including semantic segmentation, instance segmentation, panoptic segmentation, referring segmentation, and part segmentation, all within a unified framework of language-guided segmentation. 
+We present **HIPIE**, a novel HIerarchical, oPen-vocabulary and unIvErsal image segmentation and detection model that is capable of performing segmentation tasks at various levels of granularities (whole, part and subpart) and tasks, including semantic segmentation, instance segmentation, panoptic segmentation, referring segmentation, and part/subpart segmentation, all within a unified framework of language-guided segmentation. 
 
 <p align="center"> <img src='assets/teaser.png' align="center" > </p>            
 
