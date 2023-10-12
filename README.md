@@ -134,7 +134,7 @@ with released weights, on should be able to reproduce following results
 
 \* Used only in pretraing, but not in final training.
 
-\** Note on high variance: We observe that evaluation metrics can have high variances, this is likely due to the noise of using CLIP MODEL. Specifically, changing the `MODEL.CLUP.ALPHA` and `MODEL.CLUP.BETA` which determines the importances of CLIP feature versus encoder feature can drastically change the results. It is possible to improve on individual benchmark by tuning these parameters. 
+\** Note on high variance: We observe that evaluation metrics can have high variances, this is likely due to the noise of using CLIP MODEL. Specifically, changing the `MODEL.CLIP.ALPHA` and `MODEL.CLIP.BETA` which determines the importances of CLIP feature versus encoder feature can drastically change the results. It is possible to improve on individual benchmark by tuning these parameters. 
 
 ## License
 The majority of HIPIE is licensed under the [MIT license](LICENSE). If you later add other third party code, please keep this license info updated, and please let us know if that component is licensed under something other than CC-BY-NC, MIT, or CC0.
