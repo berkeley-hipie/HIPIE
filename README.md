@@ -152,7 +152,7 @@ The finetuned part segmentation model should be able to produce the following re
   <tr>
     <td >PQ</td>
     <td >oIoU</td>
-    <td >MIoU</td>
+    <td >MIoU-PastS</td>
   </tr>
     <tr>
     <td >55.3</td>
