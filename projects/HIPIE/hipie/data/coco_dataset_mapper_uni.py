@@ -24,6 +24,7 @@ from .datasets.register_coco_panoptic_annos_semseg import get_metadata
 import cv2
 from .datasets.register_seginw import _CATEGORIES as SEG_IN_W_CATEGORIES
 from .datasets.register_odinw import _CATEGORIES as OD_IN_W_CATEGORIES
+from .datasets.register_pascal import THINGS_CLASSES_WITH_PART 
 COCO_PANOPTIC_META = get_metadata()
 __all__ = ["DetrDatasetMapper"]
 
@@ -286,8 +287,9 @@ class DetrDatasetMapperUni:
                 return_tokens=True,
                 tokenizer=self.tokenizer,
                 max_query_len=self.max_query_len,
-                part_mode = self.part_mode
+                #part_mode = self.part_mode
             )
+            
             if test_categories is not None:
                 prompt_test, positive_map_label_to_token = create_queries_and_maps(test_categories, self.tokenizer) # for example, test_categories = [{"name": "person"}]
             else:
@@ -351,7 +353,7 @@ class DetrDatasetMapperUni:
             expression = expression.replace('left', '@').replace('right', 'left').replace('@', 'right')
         return expression
 
-    def transform_annos(self, annotations_ori, transforms, image_shape, dataset_dict,overwrite_instances=None):
+    def transform_annos(self, annotations_ori, transforms, image_shape, dataset_dict,overwrite_instances=None,part_mode=False):
         # USER: Implement additional transformations if you have other types of data
         
         if overwrite_instances is not None:
@@ -389,7 +391,7 @@ class DetrDatasetMapperUni:
                     max_seq_length=self.max_query_len-2
                 )
             anno = {"annotations": annotations, "caption": caption, "label_to_positions": label_to_positions}
-            anno = self.prepare(anno)
+            anno = self.prepare(anno,part_mode=part_mode)
             instances.positive_map = anno["positive_map"].bool() # (N, max_seq_len). N is num of objects. bool() -> 0 or 1
             if self.clip_train:
                 labels = [[y for y in x.strip().split(',')] for x in caption.split('.')]
@@ -479,6 +481,7 @@ class DetrDatasetMapperUni:
         # if there are ordinal numbers in expressions, disable crop
         disable_crop = self.has_ordinal_num(dataset_dict["expressions"]) if "expressions" in dataset_dict else False
         transformed_image, image_shape, transforms = self.transform_img(image, disable_crop=disable_crop,sem_seg=sem_seg_gt)
+        is_part_data = False
         if sem_seg_gt is not None:
             (dataset_dict["image"],dataset_dict["sem_seg"]) = transformed_image
         else:
@@ -515,6 +518,7 @@ class DetrDatasetMapperUni:
             classes = []
             masks = []
             sem_seg_gt_transformed = transforms.apply_segmentation(sem_seg_gt)
+            is_part_data = True
             for uuid in np.unique(sem_seg_gt_transformed):
                 if uuid == 0:
                     continue
@@ -523,15 +527,14 @@ class DetrDatasetMapperUni:
                 #print(binary_mask.shape)
                 num_labels, labels = cv2.connectedComponents(binary_mask.astype(np.uint8) * 255)
                 #print(num_labels,labels.min(),labels.max())
-                # for i in range(num_labels):
-                #     msk = labels==i
-                #     msk = msk & binary_mask
-                #     area = msk.sum()
-                #     if area < 100:
-                #         continue
-                    #print(area)
-                classes.append(uuid-1)
-                masks.append(msk)
+                for i in range(num_labels):
+                    msk = labels==i
+                    msk = msk & binary_mask
+                    area = msk.sum()
+                    if area < 100:
+                        continue
+                    classes.append(uuid-1)
+                    masks.append(msk)
             if len(masks) == 0:
                 gt_masks = BitMasks(torch.zeros((0, sem_seg_gt_transformed.shape[-2], sem_seg_gt_transformed.shape[-1])))
                 gt_boxes = Boxes(torch.zeros((0, 4)))
@@ -581,7 +584,7 @@ class DetrDatasetMapperUni:
             return dataset_dict
 
         if "annotations" in dataset_dict or instances is not None:
-            instances, expressions_new = self.transform_annos(dataset_dict.get("annotations",None), transforms, image_shape, dataset_dict,overwrite_instances=instances)
+            instances, expressions_new = self.transform_annos(dataset_dict.get("annotations",None), transforms, image_shape, dataset_dict,overwrite_instances=instances,part_mode= (is_part_data and self.part_mode))
             # add "expressions" for detection data
             dataset_dict["expressions"] = expressions_new
             instances = utils.filter_empty_instances(instances)
@@ -944,9 +947,9 @@ class ConvertCocoPolysToMask(object):
         self.return_tokens = return_tokens # True
         self.tokenizer = tokenizer # AutoTokenizer.from_pretrained("bert-base-uncased")
         self.max_query_len = max_query_len
-        self.part_mode = part_mode
+        #self.part_mode = part_mode
 
-    def __call__(self, target):
+    def __call__(self, target,part_mode=False):
 
         anno = target["annotations"]
         caption = target["caption"] if "caption" in target else None
@@ -963,7 +966,7 @@ class ConvertCocoPolysToMask(object):
             tokenized = self.tokenizer(caption, return_tensors="pt",
                 max_length=self.max_query_len,
                 truncation=True)
-            target["positive_map"] = create_positive_map(tokenized, target["tokens_positive"],self.max_query_len,self.tokenizer,self.part_mode) # (N, 256) N is num of objects. value > 0 where positive class
+            target["positive_map"] = create_positive_map(tokenized, target["tokens_positive"],self.max_query_len,self.tokenizer,part_mode=part_mode) # (N, 256) N is num of objects. value > 0 where positive class
             # if a class name is tokenized into M tokens, value is 1/M. For example, if a class name is divided into 3 tokens, value is 1/3
 
         return target
@@ -1004,7 +1007,9 @@ def create_positive_map(tokenized, tokens_positive,max_seq_len=256,tokenizer=Fal
         input_ids = torch.cat([input_ids,torch.zeros(max_seq_len-len(input_ids),dtype=int)-1])
         decoded_tokens = tokenizer.batch_decode(unique_ids[:,None]) # L
         for uid,uid_c,uid_str in zip(unique_ids,unique_id_counts,decoded_tokens):
-            if '[' in uid_str or ']' in uid_str or '#' in uid_str or '.' in uid_str or uid_c == 1 or uid_c >=30 or uid_str in ['lower','upper']:
+            if '[' in uid_str or ']' in uid_str or '#' in uid_str or '.' in uid_str or uid_c == 1 or uid_c >=30:
+                continue
+            if uid_str not in THINGS_CLASSES_WITH_PART:
                 continue
             matched_ids = input_ids == uid
             #print(matched_ids)

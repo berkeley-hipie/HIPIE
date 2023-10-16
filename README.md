@@ -13,6 +13,7 @@ We present **HIPIE**, a novel HIerarchical, oPen-vocabulary and unIvErsal image 
 
 *Oct 5: We release more weights, and codes for training and evaluation*  
 
+*Oct 15: We release additional Vit-H weights finetuned for part segmentation* 
 
 ## Installation
 Please refer to [INSTALL.md](assets/INSTALL.md) for more details.  
@@ -36,6 +37,7 @@ We release three [checkpoints](https://drive.google.com/drive/folders/1_kD3XILU1
 - ResNet-50 Pretrained with O365,COCO,RefCOCO,Pascal Panoptic Parts
 - ViT-H Pretrained with O365 and finetuned on COCO,RefCOCO
 - ViT-H Pretrained with O365,COCO,RefCOCO,PACO
+- ViT-H Finetuned on COCO,RefCOCO,Pascal-Parts
 
 ## Training
 
@@ -135,6 +137,31 @@ with released weights, on should be able to reproduce following results
 \* Used only in pretraing, but not in final training.
 
 \** Note on high variance: We observe that evaluation metrics can have high variances, this is likely due to the noise of using CLIP MODEL. Specifically, changing the `MODEL.CLIP.ALPHA` and `MODEL.CLIP.BETA` which determines the importances of CLIP feature versus encoder feature can drastically change the results. It is possible to improve on individual benchmark by tuning these parameters. 
+
+The finetuned part segmentation model should be able to produce the following result
+
+<table >
+<thead >
+  <tr>
+    <th > COCO</th>
+    <th > RefCOCO</th>
+    <th > Pascal-Parts</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td >PQ</td>
+    <td >oIoU</td>
+    <td >MIoU</td>
+  </tr>
+    <tr>
+    <td >55.3</td>
+    <td >78.1</td>
+    <td >64.4</td>
+  </tr>
+  </tbody>
+</table>
+
 
 ## License
 The majority of HIPIE is licensed under the [MIT license](LICENSE). If you later add other third party code, please keep this license info updated, and please let us know if that component is licensed under something other than CC-BY-NC, MIT, or CC0.

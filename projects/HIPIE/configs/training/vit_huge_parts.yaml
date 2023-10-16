@@ -13,7 +13,7 @@ SOLVER:
   # IMS_PER_BATCH: 2 # batch-per-gpu = 2
   #STEPS: (40000,) # 2x (20/24)
   #MAX_ITER: 48000
-  STEPS: (12000,20000) #(76658,) # 2x (20/24)
+  STEPS: (50000,72000) #(76658,) # 2x (20/24)
   MAX_ITER: 91990
 TEST:
   MAX_POOL: off

@@ -49,15 +49,14 @@ MODEL:
     MAX_QUERY_LEN: 1024
 DATASETS:
   TRAIN: ("pascal_parts_train","coco_2017_train_panoptic_with_sem_seg", "refcoco-mixed") # , "refcoco-mixed" "coco_2017_train_panoptic_with_sem_seg", "refcoco-mixed"
-  TEST: ("pascal_parts_test",) # "coco_2017_test-dev"  "refcoco-unc-val" # "coco_2017_val_panoptic_with_sem_seg",
-  # "refcoco-unc-testA", "refcoco-unc-testB", "refcocoplus-unc-val", "refcocoplus-unc-testA", "refcocoplus-unc-testB", "refcocog-umd-val", "refcocog-umd-test"
+  TEST: ("pascal_parts_val","coco_2017_val_panoptic_with_sem_seg", "refcoco-unc-val") # "coco_2017_test-dev"  "refcoco-unc-val" # "coco_2017_val_panoptic_with_sem_seg",
 FIND_UNUSED_PARAMETERS: False
 SOLVER:
   IMS_PER_BATCH: 32 # batch-per-gpu = 2
   BASE_LR: 0.0001 # 2e-4
   VL_LR: 0.0001 # 2e-4
-  STEPS: (10000,40000) #(76658,) # 2x (20/24)
-  MAX_ITER: 50990
+  STEPS: (50000,72000) #(76658,) # 2x (20/24)
+  MAX_ITER: 91990
   WARMUP_FACTOR: 0.0
   WARMUP_ITERS: 2000 
   WEIGHT_DECAY: 0.01
