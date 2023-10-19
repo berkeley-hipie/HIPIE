@@ -14,5 +14,5 @@ SOLVER:
   # IMS_PER_BATCH: 2 # batch-per-gpu = 2
   STEPS: (312346,) # 2x (20/24)
   MAX_ITER: 340741
-  IMS_PER_BATCH: 8
+  IMS_PER_BATCH: 16
 OUTPUT_DIR: "outputs/image_joint_vit_huge_32g_pretrain"
