@@ -1,0 +1,2 @@
+0:R_strawberry
+1:people

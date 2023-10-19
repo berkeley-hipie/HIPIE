@@ -1,0 +1,14 @@
+0:background
+1:background
+2:black bishop
+3:black king
+4:black knight
+5:black pawn
+6:black queen
+7:black rook
+8:white bishop
+9:white king
+10:white knight
+11:white pawn
+12:white queen
+13:white rook

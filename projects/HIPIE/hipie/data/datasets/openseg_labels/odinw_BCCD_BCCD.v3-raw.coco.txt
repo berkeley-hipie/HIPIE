@@ -1,0 +1,4 @@
+0:background
+1:Platelets
+2:RBC
+3:WBC

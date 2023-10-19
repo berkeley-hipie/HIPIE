@@ -1,0 +1,8 @@
+0:Allen-key
+1:block
+2:gasket
+3:plier
+4:prism
+5:screw
+6:screwdriver
+7:wrench

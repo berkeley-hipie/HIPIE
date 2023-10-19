@@ -1,0 +1,4 @@
+0:bottle
+1:mouse
+2:perfume
+3:phone

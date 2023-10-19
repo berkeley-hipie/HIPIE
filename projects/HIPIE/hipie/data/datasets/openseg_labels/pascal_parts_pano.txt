@@ -1,0 +1,200 @@
+1:aeroplane body
+2:aeroplane stern
+3:aeroplane wing
+4:aeroplane tail
+5:aeroplane engine
+6:aeroplane wheel
+7:bicycle body
+8:bicycle wheel
+9:bicycle saddle
+10:bicycle handlebar
+11:bicycle headlight
+12:bird torso
+13:bird head
+14:bird neck
+15:bird wing
+16:bird leg
+17:bird foot
+18:bird tail
+19:boat
+20:bottle body
+21:bottle cap
+22:bus body
+23:bus frontside
+24:bus leftside
+25:bus rightside
+26:bus backside
+27:bus roofside
+28:bus mirror
+29:bus fliplate
+30:bus bliplate
+31:bus door
+32:bus wheel
+33:bus headlight
+34:bus window
+35:car body
+36:car mirror
+37:car tmirror
+38:car fliplate
+39:car bliplate
+40:car door
+41:car wheel
+42:car headlight
+43:car window
+44:cat torso
+45:cat head
+46:cat eye
+47:cat ear
+48:cat nose
+49:cat neck
+50:cat leg
+51:cat pawn
+52:cat tail
+53:chair
+54:cow torso
+55:cow head
+56:cow eye
+57:cow ear
+58:cow muzzle
+59:cow horn
+60:cow neck
+61:cow leg
+62:cow tail
+63:table
+64:dog torso
+65:dog head
+66:dog eye
+67:dog ear
+68:dog nose
+69:dog neck
+70:dog leg
+71:dog pawn
+72:dog tail
+73:dog muzzle
+74:horse body
+75:horse head
+76:horse eye
+77:horse ear
+78:horse muzzle
+79:horse torso
+80:horse neck
+81:horse leg
+82:horse tail
+83:motorbike body
+84:motorbike wheel
+85:motorbike handlebar
+86:motorbike saddle
+87:motorbike headlight
+88:person body
+89:person head
+90:person eye
+91:person ear
+92:person ebrow
+93:person nose
+94:person mouth
+95:person hair
+96:person torso
+97:person neck
+98:person lower arm
+99:person upper arm
+100:person hand
+101:person lower leg
+102:person upper leg
+103:person foot
+104:pottedplant plant
+105:pottedplant pot
+106:sheep torso
+107:sheep head
+108:sheep eye
+109:sheep ear
+110:sheep muzzle
+111:sheep horn
+112:sheep neck
+113:sheep leg
+114:sheep tail
+115:sofa
+116:train body
+117:train head
+118:train headlight
+119:train coach
+120:tvmonitor frame
+121:tvmonitor screen
+122:bag
+123:basket
+124:bed
+125:bedclothes
+126:bench
+127:bird cage
+128:board
+129:book
+130:bowl
+131:box
+132:bridge
+133:brush
+134:bucket
+135:building
+136:cabinet
+137:cage
+138:case
+139:ceiling
+140:cloth
+141:computer
+142:counter
+143:cup
+144:curtain
+145:cushion
+146:door
+147:fence
+148:fire place
+149:floor
+150:flower
+151:food
+152:fridge
+153:grandstand
+154:grass
+155:ground
+156:horse-drawn carriage
+157:keyboard
+158:laptop
+159:light
+160:mat
+161:metal
+162:mirror
+163:mountain
+164:mouse
+165:pack
+166:paper
+167:picture
+168:pillow
+169:plant
+170:plate
+171:platform
+172:pole
+173:poster
+174:pot
+175:road
+176:rock
+177:rope
+178:rug
+179:sand
+180:sculpture
+181:shelves
+182:sidewalk
+183:sign
+184:sink
+185:sky
+186:smoke
+187:snow
+188:speaker
+189:stage
+190:stair
+191:tent
+192:toy
+193:track
+194:tree
+195:truck
+196:wall
+197:water
+198:window
+199:wineglass
+200:wood

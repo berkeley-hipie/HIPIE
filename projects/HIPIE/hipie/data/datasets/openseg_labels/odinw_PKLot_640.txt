@@ -1,0 +1,3 @@
+0:background
+1:space-empty
+2:space-occupied

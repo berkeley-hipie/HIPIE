@@ -1,0 +1,3 @@
+0:background
+1:dog
+2:person

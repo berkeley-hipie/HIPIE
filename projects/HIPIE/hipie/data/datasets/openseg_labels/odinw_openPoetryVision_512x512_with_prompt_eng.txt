@@ -1,0 +1,44 @@
+0:background
+1:American Typewriter
+2:Andale Mono
+3:Apple Chancery
+4:Arial
+5:Avenir
+6:Baskerville
+7:Big Caslon
+8:Bradley Hand
+9:Brush Script MT
+10:Chalkboard
+11:Comic Sans MS
+12:Copperplate
+13:Courier
+14:Didot
+15:Futura
+16:Geneva
+17:Georgia
+18:Gill Sans
+19:Helvetica
+20:Herculanum
+21:Impact
+22:Kefa
+23:Lucida Grande
+24:Luminari
+25:Marker Felt
+26:Menlo
+27:Monaco
+28:Noteworthy
+29:Optima
+30:PT Sans
+31:PT Serif
+32:Palatino
+33:Papyrus
+34:Phosphate
+35:Rockwell
+36:SF Pro
+37:SignPainter
+38:Skia
+39:Snell Roundhand
+40:Tahoma
+41:Times New Roman
+42:Trebuchet MS
+43:Verdana

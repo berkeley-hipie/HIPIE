@@ -1,0 +1,57 @@
+1:ego vehicle:void
+2:rectification border:void
+3:out of roi:void
+4:static:void
+5:dynamic:void
+6:ground:
+7:road:
+8:sidewalk:
+9:parking:
+10:rail track:
+11:building:
+12:wall:
+13:fence:
+14:guard rail:
+15:bridge:
+16:tunnel:
+17:pole:
+18:polegroup:
+19:traffic light:
+20:traffic sign:
+21:vegetation:
+22:terrain:
+23:sky:
+24:person:torso
+2401:person:torso
+2402:person:head
+2403:person:arm
+2404:person:leg
+25:rider:torso
+2501:rider:torso
+2502:rider:head
+2503:rider:arm
+2504:rider:leg
+26:car:body
+2601:car:window
+2602:car:wheel
+2603:car:light
+2604:car:license plate
+2605:car:chassis
+27:truck:body
+2701:truck:window
+2702:truck:wheel
+2703:truck:light
+2704:truck:license plate
+2705:truck:chassis
+28:bus:body
+2801:bus:window
+2802:bus:wheel
+2803:bus:light
+2804:bus:license plate
+2805:bus:chassis
+29:caravan:
+30:trailer:
+31:train:
+32:motorcycle:
+33:bicycle:
+34:license plate:

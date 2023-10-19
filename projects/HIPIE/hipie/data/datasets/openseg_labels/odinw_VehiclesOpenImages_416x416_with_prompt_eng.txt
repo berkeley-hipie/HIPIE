@@ -1,0 +1,6 @@
+0:background
+1:Ambulance
+2:Bus
+3:Car
+4:Motorcycle
+5:Truck

@@ -1,0 +1,3 @@
+0:bottle
+1:can
+2:label

@@ -1,0 +1,40 @@
+1:road
+2:sidewalk
+3:building
+4:wall
+5:fence
+6:pole
+7:traffic light
+8:vegetation
+9:terrain
+10:sky
+11:person torso
+12:person head
+13:person arm
+14:person leg
+15:rider torso
+16:rider head
+17:rider arm
+18:rider leg
+19:car body
+20:car window
+21:car wheel
+22:car light
+23:car license plate
+24:car chassis
+25:truck body
+26:truck window
+27:truck wheel
+28:truck light
+29:truck license plate
+30:truck chassis
+31:bus body
+32:bus window
+33:bus wheel
+34:bus light
+35:bus license plate
+36:bus chassis
+37:train
+38:motorcycle
+39:bicycle
+40:license plate

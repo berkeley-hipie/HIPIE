@@ -1,0 +1,531 @@
+1:trash can
+2:handbag
+3:ball
+4:basket
+5:belt
+6:bench
+7:bicycle
+8:blender
+9:book
+10:bottle
+11:bowl
+12:box
+13:broom
+14:bucket
+15:calculator
+16:can
+17:car (automobile)
+18:carton
+19:cellular telephone
+20:chair
+21:clock
+22:crate
+23:cup
+24:dog
+25:drill
+26:drum (musical instrument)
+27:earphone
+28:fan
+29:glass (drink container)
+30:guitar
+31:hammer
+32:hat
+33:helmet
+34:jar
+35:kettle
+36:knife
+37:ladder
+38:lamp
+39:laptop computer
+40:microwave oven
+41:mirror
+42:mouse (computer equipment)
+43:mug
+44:napkin
+45:newspaper
+46:pan (for cooking)
+47:pen
+48:pencil
+49:pillow
+50:pipe
+51:plate
+52:pliers
+53:remote control
+54:plastic bag
+55:scarf
+56:scissors
+57:screwdriver
+58:shoe
+59:slipper (footwear)
+60:soap
+61:sponge
+62:spoon
+63:stool
+64:sweater
+65:table
+66:tape (sticky cloth or paper)
+67:telephone
+68:television set
+69:tissue paper
+70:towel
+71:tray
+72:vase
+73:wallet
+74:watch
+75:wrench
+76:car (automobile):antenna
+77:chair:apron
+78:table:apron
+79:chair:arm
+80:bench:arm
+81:chair:back
+82:guitar:back
+83:remote control:back
+84:laptop computer:back
+85:bench:back
+86:telephone:back cover
+87:cellular telephone:back cover
+88:shoe:backstay
+89:belt:bar
+90:pen:barrel
+91:bottle:base
+92:bowl:base
+93:clock:base
+94:drum (musical instrument):base
+95:bucket:base
+96:handbag:base
+97:fan:base
+98:plate:base
+99:television set:base
+100:basket:base
+101:can:base
+102:mug:base
+103:jar:base
+104:soap:base
+105:cup:base
+106:kettle:base
+107:tray:base
+108:chair:base
+109:pan (for cooking):base
+110:blender:base
+111:lamp:base
+112:glass (drink container):base
+113:laptop computer:base panel
+114:bicycle:basket
+115:telephone:bezel
+116:cellular telephone:bezel
+117:knife:blade
+118:fan:blade
+119:blender:blade
+120:pliers:blade
+121:scissors:blade
+122:plastic bag:body
+123:bottle:body
+124:guitar:body
+125:bowl:body
+126:drill:body
+127:pencil:body
+128:drum (musical instrument):body
+129:sweater:body
+130:trash can:body
+131:scarf:body
+132:bucket:body
+133:handbag:body
+134:plate:body
+135:calculator:body
+136:can:body
+137:mouse (computer equipment):body
+138:mug:body
+139:jar:body
+140:soap:body
+141:towel:body
+142:kettle:body
+143:glass (drink container):body
+144:vase:body
+145:dog:body
+146:towel:border
+147:can:bottom
+148:bucket:bottom
+149:handbag:bottom
+150:mug:bottom
+151:bottle:bottom
+152:crate:bottom
+153:bowl:bottom
+154:jar:bottom
+155:pan (for cooking):bottom
+156:box:bottom
+157:plate:bottom
+158:soap:bottom
+159:tray:bottom
+160:glass (drink container):bottom
+161:television set:bottom
+162:trash can:bottom
+163:carton:bottom
+164:basket:bottom
+165:spoon:bowl
+166:fan:bracket
+167:guitar:bridge
+168:broom:brush
+169:broom:brush cap
+170:belt:buckle
+171:watch:buckle
+172:lamp:bulb
+173:car (automobile):bumper
+174:telephone:button
+175:remote control:button
+176:television set:button
+177:cellular telephone:button
+178:clock:cable
+179:blender:cable
+180:lamp:cable
+181:laptop computer:cable
+182:earphone:cable
+183:kettle:cable
+184:laptop computer:camera
+185:fan:canopy
+186:pen:cap
+187:soap:cap
+188:carton:cap
+189:bottle:cap
+190:soap:capsule
+191:bottle:capsule
+192:watch:case
+193:clock:case
+194:pen:clip
+195:soap:closure
+196:bottle:closure
+197:pipe:colied tube
+198:microwave oven:control panel
+199:bucket:cover
+200:jar:cover
+201:blender:cover
+202:drum (musical instrument):cover
+203:basket:cover
+204:book:cover
+205:sweater:cuff
+206:blender:cup
+207:clock:decoration
+208:watch:dial
+209:microwave oven:dial
+210:microwave oven:door handle
+211:bicycle:down tube
+212:table:drawer
+213:mug:drawing
+214:dog:ear
+215:earphone:ear pads
+216:pillow:embroidery
+217:belt:end tip
+218:pencil:eraser
+219:dog:eye
+220:shoe:eyelet
+221:hammer:face
+222:helmet:face shield
+223:fan:fan box
+224:car (automobile):fender
+225:pencil:ferrule
+226:scissors:finger hole
+227:guitar:fingerboard
+228:lamp:finial
+229:clock:finial
+230:wallet:flap
+231:blender:food cup
+232:dog:foot
+233:vase:foot
+234:ladder:foot
+235:stool:footrest
+236:bicycle:fork
+237:belt:frame
+238:mirror:frame
+239:scarf:fringes
+240:bicycle:gear
+241:car (automobile):grille
+242:hammer:grip
+243:pen:grip
+244:watch:hand
+245:clock:hand
+246:plastic bag:handle
+247:bottle:handle
+248:drill:handle
+249:hammer:handle
+250:scissors:handle
+251:broom:handle
+252:screwdriver:handle
+253:bucket:handle
+254:handbag:handle
+255:wrench:handle
+256:pliers:handle
+257:basket:handle
+258:mug:handle
+259:crate:handle
+260:jar:handle
+261:car (automobile):handle
+262:soap:handle
+263:cup:handle
+264:kettle:handle
+265:knife:handle
+266:spoon:handle
+267:pan (for cooking):handle
+268:blender:handle
+269:vase:handle
+270:bicycle:handlebar
+271:dog:head
+272:hammer:head
+273:wrench:head
+274:drum (musical instrument):head
+275:bicycle:head tube
+276:earphone:headband
+277:car (automobile):headlight
+278:guitar:headstock
+279:shoe:heel
+280:bottle:heel
+281:plastic bag:hem
+282:sweater:hem
+283:towel:hem
+284:belt:hole
+285:guitar:hole
+286:trash can:hole
+287:car (automobile):hood
+288:earphone:housing
+289:can:inner body
+290:bucket:inner body
+291:plastic bag:inner body
+292:handbag:inner body
+293:mug:inner body
+294:bottle:inner body
+295:wallet:inner body
+296:bowl:inner body
+297:jar:inner body
+298:blender:inner body
+299:drum (musical instrument):inner body
+300:glass (drink container):inner body
+301:trash can:inner body
+302:cup:inner body
+303:table:inner body
+304:kettle:inner body
+305:hat:inner side
+306:crate:inner side
+307:helmet:inner side
+308:box:inner side
+309:microwave oven:inner side
+310:pan (for cooking):inner side
+311:basket:inner side
+312:carton:inner side
+313:tray:inner side
+314:plate:inner wall
+315:tray:inner wall
+316:shoe:insole
+317:slipper (footwear):insole
+318:pliers:jaw
+319:pliers:joint
+320:calculator:key
+321:guitar:key
+322:laptop computer:keyboard
+323:soap:label
+324:bottle:label
+325:trash can:label
+326:shoe:lace
+327:pencil:lead
+328:mouse (computer equipment):left button
+329:table:leg
+330:bench:leg
+331:chair:leg
+332:dog:leg
+333:stool:leg
+334:can:lid
+335:crate:lid
+336:box:lid
+337:jar:lid
+338:pan (for cooking):lid
+339:carton:lid
+340:trash can:lid
+341:kettle:lid
+342:fan:light
+343:shoe:lining
+344:slipper (footwear):lining
+345:hat:logo
+346:mouse (computer equipment):logo
+347:helmet:logo
+348:fan:logo
+349:car (automobile):logo
+350:remote control:logo
+351:laptop computer:logo
+352:belt:loop
+353:bucket:loop
+354:drum (musical instrument):loop
+355:broom:lower bristles
+356:watch:lug
+357:drum (musical instrument):lug
+358:car (automobile):mirror
+359:fan:motor
+360:vase:mouth
+361:bottle:neck
+362:spoon:neck
+363:vase:neck
+364:soap:neck
+365:dog:neck
+366:sweater:neckband
+367:dog:nose
+368:pipe:nozzle
+369:pipe:nozzle stem
+370:tray:outer side
+371:shoe:outsole
+372:slipper (footwear):outsole
+373:book:page
+374:bicycle:pedal
+375:trash can:pedal
+376:fan:pedestal column
+377:clock:pediment
+378:guitar:pickguard
+379:lamp:pipe
+380:hat:pom pom
+381:belt:prong
+382:can:pull tab
+383:soap:punt
+384:bottle:punt
+385:soap:push pull cap
+386:shoe:quarter
+387:chair:rail
+388:ladder:rail
+389:mouse (computer equipment):right button
+390:can:rim
+391:bucket:rim
+392:hat:rim
+393:handbag:rim
+394:mug:rim
+395:bowl:rim
+396:helmet:rim
+397:jar:rim
+398:pan (for cooking):rim
+399:car (automobile):rim
+400:plate:rim
+401:glass (drink container):rim
+402:tray:rim
+403:drum (musical instrument):rim
+404:trash can:rim
+405:cup:rim
+406:table:rim
+407:basket:rim
+408:soap:ring
+409:broom:ring
+410:bottle:ring
+411:fan:rod
+412:tissue paper:roll
+413:tape (sticky cloth or paper):roll
+414:car (automobile):roof
+415:sponge:rough surface
+416:car (automobile):runningboard
+417:bicycle:saddle
+418:telephone:screen
+419:cellular telephone:screen
+420:laptop computer:screen
+421:scissors:screw
+422:mouse (computer equipment):scroll wheel
+423:blender:seal ring
+424:chair:seat
+425:bench:seat
+426:stool:seat
+427:car (automobile):seat
+428:bicycle:seat stay
+429:bicycle:seat tube
+430:lamp:shade
+431:lamp:shade cap
+432:lamp:shade inner side
+433:broom:shaft
+434:screwdriver:shank
+435:table:shelf
+436:sweater:shoulder
+437:soap:shoulder
+438:bottle:shoulder
+439:crate:side
+440:guitar:side
+441:box:side
+442:microwave oven:side
+443:pan (for cooking):side
+444:television set:side
+445:carton:side
+446:basket:side
+447:mouse (computer equipment):side button
+448:car (automobile):sign
+449:soap:sipper
+450:bottle:sipper
+451:chair:skirt
+452:sweater:sleeve
+453:earphone:slider
+454:chair:spindle
+455:car (automobile):splashboard
+456:blender:spout
+457:soap:spout
+458:kettle:spout
+459:bottle:spout
+460:car (automobile):steeringwheel
+461:bicycle:stem
+462:stool:step
+463:ladder:step
+464:jar:sticker
+465:chair:stile
+466:hat:strap
+467:watch:strap
+468:helmet:strap
+469:slipper (footwear):strap
+470:belt:strap
+471:chair:stretcher
+472:table:stretcher
+473:bench:stretcher
+474:guitar:string
+475:fan:string
+476:blender:switch
+477:lamp:switch
+478:kettle:switch
+479:chair:swivel
+480:bench:table top
+481:dog:tail
+482:car (automobile):taillight
+483:car (automobile):tank
+484:carton:tapering top
+485:dog:teeth
+486:towel:terry bar
+487:can:text
+488:plastic bag:text
+489:mug:text
+490:newspaper:text
+491:jar:text
+492:carton:text
+493:shoe:throat
+494:microwave oven:time display
+495:spoon:tip
+496:pen:tip
+497:screwdriver:tip
+498:shoe:toe box
+499:slipper (footwear):toe box
+500:shoe:tongue
+501:bottle:top
+502:microwave oven:top
+503:soap:top
+504:television set:top
+505:table:top
+506:carton:top
+507:ladder:top cap
+508:bicycle:top tube
+509:laptop computer:touchpad
+510:car (automobile):trunk
+511:car (automobile):turnsignal
+512:microwave oven:turntable
+513:shoe:vamp
+514:slipper (footwear):vamp
+515:blender:vapour cover
+516:hat:visor
+517:helmet:visor
+518:shoe:welt
+519:chair:wheel
+520:car (automobile):wheel
+521:trash can:wheel
+522:table:wheel
+523:bicycle:wheel
+524:watch:window
+525:car (automobile):window
+526:car (automobile):windowpane
+527:car (automobile):windshield
+528:car (automobile):wiper
+529:mouse (computer equipment):wire
+530:sweater:yoke
+531:handbag:zip

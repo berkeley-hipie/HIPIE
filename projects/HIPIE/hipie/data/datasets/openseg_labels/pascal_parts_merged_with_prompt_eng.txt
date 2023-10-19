@@ -1,0 +1,57 @@
+1:aeroplane body
+2:aeroplane stern
+3:aeroplane wing
+4:aeroplane engine
+5:aeroplane wheel
+6:bicycle body
+7:bicycle wheel
+8:bird torso
+9:bird head
+10:bird wing
+11:bird leg
+12:boat
+13:bottle cap
+14:bottle body
+15:bus body
+16:bus wheel
+17:bus window
+18:car body
+19:car license plate
+20:car wheel
+21:car light
+22:car window
+23:cat torso
+24:cat head
+25:cat leg
+26:cat tail
+27:chair
+28:cow torso
+29:cow head
+30:cow leg
+31:cow tail
+32:table
+33:dog torso
+34:dog head
+35:dog leg
+36:dog tail
+37:horse torso
+38:horse head
+39:horse leg
+40:horse tail
+41:motorbike body
+42:motorbike wheel
+43:person torso
+44:person head
+45:person lower arm
+46:person upper arm
+47:person lower leg
+48:person upper leg
+49:pottedplant plant
+50:pottedplant pot
+51:sheep torso
+52:sheep head
+53:sheep leg
+54:sofa
+55:train body
+56:tvmonitor frame
+57:tvmonitor screen

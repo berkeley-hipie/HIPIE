@@ -1,0 +1,3 @@
+0:background
+1:flat mushroom
+2:yellow mushroom

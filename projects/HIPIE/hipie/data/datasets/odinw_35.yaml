@@ -1,0 +1,3302 @@
+AerialMaritimeDrone_large:
+  test:
+    ann_file: odinw/AerialMaritimeDrone/large/test/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/large/test
+  train:
+    ann_file: odinw/AerialMaritimeDrone/large/train/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_10_3:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_10_30:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_10_300:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_1_3:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_1_30:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_1_300:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_3_3:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_3_30:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_3_300:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_5_3:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_5_30:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  train_5_300:
+    ann_file: odinw/AerialMaritimeDrone/large/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/train
+  val:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_10_3:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_10_30:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_10_300:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_1_3:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_1_30:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_1_300:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_3_3:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_3_30:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_3_300:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_5_3:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_5_30:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+  val_5_300:
+    ann_file: odinw/AerialMaritimeDrone/large/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/large/valid
+AerialMaritimeDrone_tiled:
+  test:
+    ann_file: odinw/AerialMaritimeDrone/tiled/test/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/test
+  train:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_10_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_10_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_10_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_1_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_1_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_1_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_3_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_3_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_3_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_5_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_5_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  train_5_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/train
+  val:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/annotations_without_background.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_10_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_10_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_10_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_1_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_1_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_1_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_3_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_3_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_3_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_5_3:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_5_30:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+  val_5_300:
+    ann_file: odinw/AerialMaritimeDrone/tiled/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/AerialMaritimeDrone/tiled/valid
+AmericanSignLanguageLetters_American_Sign_Language_Letters.v1-v1.coco:
+  test:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/test/annotations_without_background.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/test
+  train:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/annotations_without_background.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_10_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_10_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_10_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_1_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_1_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_1_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_3_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_3_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_3_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_5_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_5_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  train_5_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/train
+  val:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/annotations_without_background.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_10_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_10_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_10_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_1_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_1_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_1_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_3_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_3_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_3_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_5_3:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_5_30:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+  val_5_300:
+    ann_file: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/AmericanSignLanguageLetters/American Sign Language Letters.v1-v1.coco/valid
+Aquarium_Aquarium_Combined.v2-raw-1024.coco:
+  test:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/test/annotations_without_background.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/test
+  train:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/annotations_without_background.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_10_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_10_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_10_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_1_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_1_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_1_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_3_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_3_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_3_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_5_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_5_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  train_5_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+  val:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/annotations_without_background.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_10_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_10_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_10_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_1_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_1_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_1_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_3_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_3_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_3_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_5_3:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_5_30:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  val_5_300:
+    ann_file: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+BCCD_BCCD.v3-raw.coco:
+  test:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/test/annotations_without_background.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/test
+  train:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/annotations_without_background.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_10_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_10_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_10_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_1_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_1_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_1_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_3_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_3_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_3_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_5_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_5_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  train_5_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/train
+  val:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/annotations_without_background.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_10_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_10_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_10_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_1_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_1_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_1_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_3_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_3_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_3_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_5_3:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_5_30:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+  val_5_300:
+    ann_file: odinw/BCCD/BCCD.v3-raw.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/BCCD/BCCD.v3-raw.coco/valid
+ChessPieces_Chess_Pieces.v23-raw.coco:
+  test:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/test/annotations_without_background.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/test
+  train:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/annotations_without_background.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_10_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_10_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_10_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_1_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_1_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_1_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_3_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_3_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_3_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_5_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_5_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  train_5_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/train
+  val:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/annotations_without_background.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_10_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_10_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_10_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_1_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_1_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_1_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_3_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_3_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_3_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_5_3:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_5_30:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+  val_5_300:
+    ann_file: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/ChessPieces/Chess Pieces.v23-raw.coco/valid
+CottontailRabbits:
+  test:
+    ann_file: odinw/CottontailRabbits/test/annotations_without_background.json
+    img_dir: odinw/CottontailRabbits/test
+  train:
+    ann_file: odinw/CottontailRabbits/train/annotations_without_background.json
+    img_dir: odinw/CottontailRabbits/train
+  train_10_3:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/CottontailRabbits/train
+  train_10_30:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/CottontailRabbits/train
+  train_10_300:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/CottontailRabbits/train
+  train_1_3:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/CottontailRabbits/train
+  train_1_30:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/CottontailRabbits/train
+  train_1_300:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/CottontailRabbits/train
+  train_3_3:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/CottontailRabbits/train
+  train_3_30:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/CottontailRabbits/train
+  train_3_300:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/CottontailRabbits/train
+  train_5_3:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/CottontailRabbits/train
+  train_5_30:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/CottontailRabbits/train
+  train_5_300:
+    ann_file: odinw/CottontailRabbits/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/CottontailRabbits/train
+  val:
+    ann_file: odinw/CottontailRabbits/valid/annotations_without_background.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_10_3:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_10_30:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_10_300:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_1_3:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_1_30:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_1_300:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_3_3:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_3_30:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_3_300:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_5_3:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_5_30:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/CottontailRabbits/valid
+  val_5_300:
+    ann_file: odinw/CottontailRabbits/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/CottontailRabbits/valid
+DroneControl_Drone_Control.v3-raw.coco:
+  minival:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/annotations_without_background.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_10_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_10_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_10_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_1_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_1_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_1_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_3_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_3_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_3_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_5_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_5_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  minival_5_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/mini_val
+  test:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/test/annotations_without_background.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/test
+  train:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/annotations_without_background.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_10_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_10_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_10_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_1_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_1_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_1_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_3_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_3_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_3_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_5_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_5_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  train_5_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/train
+  val:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/annotations_without_background.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_10_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_10_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_10_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_1_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_1_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_1_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_3_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_3_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_3_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_5_3:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_5_30:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+  val_5_300:
+    ann_file: odinw/DroneControl/Drone Control.v3-raw.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/DroneControl/Drone Control.v3-raw.coco/valid
+EgoHands_generic:
+  minival:
+    ann_file: odinw/EgoHands/generic/mini_val/annotations_without_background.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_10_3:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_10_30:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_10_300:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_1_3:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_1_30:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_1_300:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_3_3:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_3_30:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_3_300:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_5_3:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_5_30:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  minival_5_300:
+    ann_file: odinw/EgoHands/generic/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/EgoHands/generic/mini_val
+  test:
+    ann_file: odinw/EgoHands/generic/test/annotations_without_background.json
+    img_dir: odinw/EgoHands/generic/test
+  train:
+    ann_file: odinw/EgoHands/generic/train/annotations_without_background.json
+    img_dir: odinw/EgoHands/generic/train
+  train_10_3:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/EgoHands/generic/train
+  train_10_30:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/EgoHands/generic/train
+  train_10_300:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/EgoHands/generic/train
+  train_1_3:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/EgoHands/generic/train
+  train_1_30:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/EgoHands/generic/train
+  train_1_300:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/EgoHands/generic/train
+  train_3_3:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/EgoHands/generic/train
+  train_3_30:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/EgoHands/generic/train
+  train_3_300:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/EgoHands/generic/train
+  train_5_3:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/EgoHands/generic/train
+  train_5_30:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/EgoHands/generic/train
+  train_5_300:
+    ann_file: odinw/EgoHands/generic/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/EgoHands/generic/train
+  val:
+    ann_file: odinw/EgoHands/generic/valid/annotations_without_background.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_10_3:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_10_30:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_10_300:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_1_3:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_1_30:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_1_300:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_3_3:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_3_30:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_3_300:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_5_3:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_5_30:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/EgoHands/generic/valid
+  val_5_300:
+    ann_file: odinw/EgoHands/generic/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/EgoHands/generic/valid
+EgoHands_specific:
+  minival:
+    ann_file: odinw/EgoHands/specific/mini_val/annotations_without_background.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_10_3:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_10_30:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_10_300:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_1_3:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_1_30:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_1_300:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_3_3:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_3_30:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_3_300:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_5_3:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_5_30:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  minival_5_300:
+    ann_file: odinw/EgoHands/specific/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/EgoHands/specific/mini_val
+  test:
+    ann_file: odinw/EgoHands/specific/test/annotations_without_background.json
+    img_dir: odinw/EgoHands/specific/test
+  train:
+    ann_file: odinw/EgoHands/specific/train/annotations_without_background.json
+    img_dir: odinw/EgoHands/specific/train
+  train_10_3:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/EgoHands/specific/train
+  train_10_30:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/EgoHands/specific/train
+  train_10_300:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/EgoHands/specific/train
+  train_1_3:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/EgoHands/specific/train
+  train_1_30:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/EgoHands/specific/train
+  train_1_300:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/EgoHands/specific/train
+  train_3_3:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/EgoHands/specific/train
+  train_3_30:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/EgoHands/specific/train
+  train_3_300:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/EgoHands/specific/train
+  train_5_3:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/EgoHands/specific/train
+  train_5_30:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/EgoHands/specific/train
+  train_5_300:
+    ann_file: odinw/EgoHands/specific/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/EgoHands/specific/train
+  val:
+    ann_file: odinw/EgoHands/specific/valid/annotations_without_background.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_10_3:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_10_30:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_10_300:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_1_3:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_1_30:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_1_300:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_3_3:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_3_30:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_3_300:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_5_3:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_5_30:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/EgoHands/specific/valid
+  val_5_300:
+    ann_file: odinw/EgoHands/specific/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/EgoHands/specific/valid
+HardHatWorkers_raw:
+  test:
+    ann_file: odinw/HardHatWorkers/raw/test/annotations_without_background.json
+    img_dir: odinw/HardHatWorkers/raw/test
+  train:
+    ann_file: odinw/HardHatWorkers/raw/train/annotations_without_background.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_10_3:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_10_30:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_10_300:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_1_3:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_1_30:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_1_300:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_3_3:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_3_30:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_3_300:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_5_3:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_5_30:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  train_5_300:
+    ann_file: odinw/HardHatWorkers/raw/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/train
+  val:
+    ann_file: odinw/HardHatWorkers/raw/valid/annotations_without_background.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_10_3:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_10_30:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_10_300:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_1_3:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_1_30:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_1_300:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_3_3:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_3_30:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_3_300:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_5_3:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_5_30:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+  val_5_300:
+    ann_file: odinw/HardHatWorkers/raw/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/HardHatWorkers/raw/valid
+MaskWearing_raw:
+  test:
+    ann_file: odinw/MaskWearing/raw/test/annotations_without_background.json
+    img_dir: odinw/MaskWearing/raw/test
+  train:
+    ann_file: odinw/MaskWearing/raw/train/annotations_without_background.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_10_3:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_10_30:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_10_300:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_1_3:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_1_30:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_1_300:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_3_3:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_3_30:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_3_300:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_5_3:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_5_30:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/MaskWearing/raw/train
+  train_5_300:
+    ann_file: odinw/MaskWearing/raw/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/MaskWearing/raw/train
+  val:
+    ann_file: odinw/MaskWearing/raw/valid/annotations_without_background.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_10_3:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_10_30:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_10_300:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_1_3:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_1_30:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_1_300:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_3_3:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_3_30:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_3_300:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_5_3:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_5_30:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/MaskWearing/raw/valid
+  val_5_300:
+    ann_file: odinw/MaskWearing/raw/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/MaskWearing/raw/valid
+MountainDewCommercial:
+  test:
+    ann_file: odinw/MountainDewCommercial/test/annotations_without_background.json
+    img_dir: odinw/MountainDewCommercial/test
+  train:
+    ann_file: odinw/MountainDewCommercial/train/annotations_without_background.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_10_3:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_10_30:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_10_300:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_1_3:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_1_30:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_1_300:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_3_3:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_3_30:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_3_300:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_5_3:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_5_30:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/MountainDewCommercial/train
+  train_5_300:
+    ann_file: odinw/MountainDewCommercial/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/MountainDewCommercial/train
+  val:
+    ann_file: odinw/MountainDewCommercial/valid/annotations_without_background.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_10_3:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_10_30:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_10_300:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_1_3:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_1_30:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_1_300:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_3_3:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_3_30:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_3_300:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_5_3:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_5_30:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/MountainDewCommercial/valid
+  val_5_300:
+    ann_file: odinw/MountainDewCommercial/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/MountainDewCommercial/valid
+NorthAmericaMushrooms_North_American_Mushrooms.v1-416x416.coco:
+  test:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/test/annotations_without_background.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/test
+  train:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/annotations_without_background.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_10_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_10_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_10_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_1_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_1_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_1_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_3_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_3_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_3_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_5_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_5_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  train_5_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/train
+  val:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/annotations_without_background.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_10_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_10_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_10_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_1_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_1_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_1_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_3_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_3_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_3_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_5_3:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_5_30:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+  val_5_300:
+    ann_file: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/NorthAmericaMushrooms/North American Mushrooms.v1-416x416.coco/valid
+OxfordPets_by-breed:
+  minival:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_10_3:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_10_30:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_10_300:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_1_3:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_1_30:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_1_300:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_3_3:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_3_30:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_3_300:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_5_3:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_5_30:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  minival_5_300:
+    ann_file: odinw/OxfordPets/by-breed/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/mini_val
+  test:
+    ann_file: odinw/OxfordPets/by-breed/test/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-breed/test
+  train:
+    ann_file: odinw/OxfordPets/by-breed/train/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_10_3:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_10_30:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_10_300:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_1_3:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_1_30:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_1_300:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_3_3:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_3_30:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_3_300:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_5_3:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_5_30:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  train_5_300:
+    ann_file: odinw/OxfordPets/by-breed/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/train
+  val:
+    ann_file: odinw/OxfordPets/by-breed/valid/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_10_3:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_10_30:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_10_300:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_1_3:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_1_30:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_1_300:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_3_3:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_3_30:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_3_300:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_5_3:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_5_30:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+  val_5_300:
+    ann_file: odinw/OxfordPets/by-breed/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-breed/valid
+OxfordPets_by-species:
+  minival:
+    ann_file: odinw/OxfordPets/by-species/mini_val/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_10_3:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_10_30:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_10_300:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_1_3:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_1_30:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_1_300:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_3_3:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_3_30:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_3_300:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_5_3:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_5_30:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  minival_5_300:
+    ann_file: odinw/OxfordPets/by-species/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-species/mini_val
+  test:
+    ann_file: odinw/OxfordPets/by-species/test/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-species/test
+  train:
+    ann_file: odinw/OxfordPets/by-species/train/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_10_3:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_10_30:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_10_300:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_1_3:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_1_30:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_1_300:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_3_3:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_3_30:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_3_300:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_5_3:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_5_30:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-species/train
+  train_5_300:
+    ann_file: odinw/OxfordPets/by-species/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-species/train
+  val:
+    ann_file: odinw/OxfordPets/by-species/valid/annotations_without_background.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_10_3:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_10_30:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_10_300:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_1_3:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_1_30:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_1_300:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_3_3:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_3_30:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_3_300:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_5_3:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_5_30:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/OxfordPets/by-species/valid
+  val_5_300:
+    ann_file: odinw/OxfordPets/by-species/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/OxfordPets/by-species/valid
+PKLot_640:
+  minival:
+    ann_file: odinw/PKLot/640/mini_val/annotations_without_background.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_10_3:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_10_30:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_10_300:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_1_3:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_1_30:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_1_300:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_3_3:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_3_30:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_3_300:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_5_3:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_5_30:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/PKLot/640/mini_val
+  minival_5_300:
+    ann_file: odinw/PKLot/640/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/PKLot/640/mini_val
+  test:
+    ann_file: odinw/PKLot/640/test/annotations_without_background.json
+    img_dir: odinw/PKLot/640/test
+  train:
+    ann_file: odinw/PKLot/640/train/annotations_without_background.json
+    img_dir: odinw/PKLot/640/train
+  train_10_3:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/PKLot/640/train
+  train_10_30:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/PKLot/640/train
+  train_10_300:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/PKLot/640/train
+  train_1_3:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/PKLot/640/train
+  train_1_30:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/PKLot/640/train
+  train_1_300:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/PKLot/640/train
+  train_3_3:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/PKLot/640/train
+  train_3_30:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/PKLot/640/train
+  train_3_300:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/PKLot/640/train
+  train_5_3:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/PKLot/640/train
+  train_5_30:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/PKLot/640/train
+  train_5_300:
+    ann_file: odinw/PKLot/640/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/PKLot/640/train
+  val:
+    ann_file: odinw/PKLot/640/valid/annotations_without_background.json
+    img_dir: odinw/PKLot/640/valid
+  val_10_3:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/PKLot/640/valid
+  val_10_30:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/PKLot/640/valid
+  val_10_300:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/PKLot/640/valid
+  val_1_3:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/PKLot/640/valid
+  val_1_30:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/PKLot/640/valid
+  val_1_300:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/PKLot/640/valid
+  val_3_3:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/PKLot/640/valid
+  val_3_30:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/PKLot/640/valid
+  val_3_300:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/PKLot/640/valid
+  val_5_3:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/PKLot/640/valid
+  val_5_30:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/PKLot/640/valid
+  val_5_300:
+    ann_file: odinw/PKLot/640/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/PKLot/640/valid
+Packages_Raw:
+  test:
+    ann_file: odinw/Packages/Raw/test/annotations_without_background.json
+    img_dir: odinw/Packages/Raw/test
+  train:
+    ann_file: odinw/Packages/Raw/train/annotations_without_background.json
+    img_dir: odinw/Packages/Raw/train
+  train_10_3:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/Packages/Raw/train
+  train_10_30:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/Packages/Raw/train
+  train_10_300:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/Packages/Raw/train
+  train_1_3:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/Packages/Raw/train
+  train_1_30:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/Packages/Raw/train
+  train_1_300:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/Packages/Raw/train
+  train_3_3:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/Packages/Raw/train
+  train_3_30:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/Packages/Raw/train
+  train_3_300:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/Packages/Raw/train
+  train_5_3:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/Packages/Raw/train
+  train_5_30:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/Packages/Raw/train
+  train_5_300:
+    ann_file: odinw/Packages/Raw/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/Packages/Raw/train
+  val:
+    ann_file: odinw/Packages/Raw/valid/annotations_without_background.json
+    img_dir: odinw/Packages/Raw/valid
+  val_10_3:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/Packages/Raw/valid
+  val_10_30:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/Packages/Raw/valid
+  val_10_300:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/Packages/Raw/valid
+  val_1_3:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/Packages/Raw/valid
+  val_1_30:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/Packages/Raw/valid
+  val_1_300:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/Packages/Raw/valid
+  val_3_3:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/Packages/Raw/valid
+  val_3_30:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/Packages/Raw/valid
+  val_3_300:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/Packages/Raw/valid
+  val_5_3:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/Packages/Raw/valid
+  val_5_30:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/Packages/Raw/valid
+  val_5_300:
+    ann_file: odinw/Packages/Raw/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/Packages/Raw/valid
+PascalVOC:
+  test:
+    ann_file: odinw/PascalVOC/valid/annotations_without_background.json
+    img_dir: odinw/PascalVOC/valid
+  train:
+    ann_file: odinw/PascalVOC/train/annotations_without_background.json
+    img_dir: odinw/PascalVOC/train
+  train_10_3:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/PascalVOC/train
+  train_10_30:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/PascalVOC/train
+  train_10_300:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/PascalVOC/train
+  train_1_3:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/PascalVOC/train
+  train_1_30:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/PascalVOC/train
+  train_1_300:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/PascalVOC/train
+  train_3_3:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/PascalVOC/train
+  train_3_30:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/PascalVOC/train
+  train_3_300:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/PascalVOC/train
+  train_5_3:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/PascalVOC/train
+  train_5_30:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/PascalVOC/train
+  train_5_300:
+    ann_file: odinw/PascalVOC/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/PascalVOC/train
+  val:
+    ann_file: odinw/PascalVOC/valid/annotations_without_background.json
+    img_dir: odinw/PascalVOC/valid
+  val_10_3:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/PascalVOC/valid
+  val_10_30:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/PascalVOC/valid
+  val_10_300:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/PascalVOC/valid
+  val_1_3:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/PascalVOC/valid
+  val_1_30:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/PascalVOC/valid
+  val_1_300:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/PascalVOC/valid
+  val_3_3:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/PascalVOC/valid
+  val_3_30:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/PascalVOC/valid
+  val_3_300:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/PascalVOC/valid
+  val_5_3:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/PascalVOC/valid
+  val_5_30:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/PascalVOC/valid
+  val_5_300:
+    ann_file: odinw/PascalVOC/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/PascalVOC/valid
+Raccoon_Raccoon.v2-raw.coco:
+  test:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/test/annotations_without_background.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/test
+  train:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/annotations_without_background.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_10_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_10_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_10_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_1_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_1_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_1_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_3_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_3_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_3_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_5_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_5_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  train_5_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/train
+  val:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/annotations_without_background.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_10_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_10_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_10_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_1_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_1_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_1_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_3_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_3_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_3_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_5_3:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_5_30:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+  val_5_300:
+    ann_file: odinw/Raccoon/Raccoon.v2-raw.coco/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/Raccoon/Raccoon.v2-raw.coco/valid
+ShellfishOpenImages_raw:
+  test:
+    ann_file: odinw/ShellfishOpenImages/raw/test/annotations_without_background.json
+    img_dir: odinw/ShellfishOpenImages/raw/test
+  train:
+    ann_file: odinw/ShellfishOpenImages/raw/train/annotations_without_background.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_10_3:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_10_30:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_10_300:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_1_3:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_1_30:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_1_300:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_3_3:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_3_30:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_3_300:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_5_3:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_5_30:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  train_5_300:
+    ann_file: odinw/ShellfishOpenImages/raw/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/train
+  val:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/annotations_without_background.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_10_3:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_10_30:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_10_300:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_1_3:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_1_30:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_1_300:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_3_3:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_3_30:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_3_300:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_5_3:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_5_30:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+  val_5_300:
+    ann_file: odinw/ShellfishOpenImages/raw/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/ShellfishOpenImages/raw/valid
+ThermalCheetah:
+  test:
+    ann_file: odinw/ThermalCheetah/test/annotations_without_background.json
+    img_dir: odinw/ThermalCheetah/test
+  train:
+    ann_file: odinw/ThermalCheetah/train/annotations_without_background.json
+    img_dir: odinw/ThermalCheetah/train
+  train_10_3:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/ThermalCheetah/train
+  train_10_30:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/ThermalCheetah/train
+  train_10_300:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/ThermalCheetah/train
+  train_1_3:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/ThermalCheetah/train
+  train_1_30:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/ThermalCheetah/train
+  train_1_300:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/ThermalCheetah/train
+  train_3_3:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/ThermalCheetah/train
+  train_3_30:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/ThermalCheetah/train
+  train_3_300:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/ThermalCheetah/train
+  train_5_3:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/ThermalCheetah/train
+  train_5_30:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/ThermalCheetah/train
+  train_5_300:
+    ann_file: odinw/ThermalCheetah/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/ThermalCheetah/train
+  val:
+    ann_file: odinw/ThermalCheetah/valid/annotations_without_background.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_10_3:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_10_30:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_10_300:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_1_3:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_1_30:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_1_300:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_3_3:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_3_30:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_3_300:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_5_3:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_5_30:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/ThermalCheetah/valid
+  val_5_300:
+    ann_file: odinw/ThermalCheetah/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/ThermalCheetah/valid
+UnoCards_raw:
+  minival:
+    ann_file: odinw/UnoCards/raw/mini_val/annotations_without_background.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_10_3:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_10_30:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_10_300:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_1_3:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_1_30:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_1_300:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_3_3:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_3_30:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_3_300:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_5_3:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_5_30:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  minival_5_300:
+    ann_file: odinw/UnoCards/raw/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/UnoCards/raw/mini_val
+  test:
+    ann_file: odinw/UnoCards/raw/test/annotations_without_background.json
+    img_dir: odinw/UnoCards/raw/test
+  train:
+    ann_file: odinw/UnoCards/raw/train/annotations_without_background.json
+    img_dir: odinw/UnoCards/raw/train
+  train_10_3:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/UnoCards/raw/train
+  train_10_30:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/UnoCards/raw/train
+  train_10_300:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/UnoCards/raw/train
+  train_1_3:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/UnoCards/raw/train
+  train_1_30:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/UnoCards/raw/train
+  train_1_300:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/UnoCards/raw/train
+  train_3_3:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/UnoCards/raw/train
+  train_3_30:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/UnoCards/raw/train
+  train_3_300:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/UnoCards/raw/train
+  train_5_3:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/UnoCards/raw/train
+  train_5_30:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/UnoCards/raw/train
+  train_5_300:
+    ann_file: odinw/UnoCards/raw/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/UnoCards/raw/train
+  val:
+    ann_file: odinw/UnoCards/raw/valid/annotations_without_background.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_10_3:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_10_30:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_10_300:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_1_3:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_1_30:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_1_300:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_3_3:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_3_30:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_3_300:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_5_3:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_5_30:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/UnoCards/raw/valid
+  val_5_300:
+    ann_file: odinw/UnoCards/raw/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/UnoCards/raw/valid
+VehiclesOpenImages_416x416:
+  minival:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/annotations_without_background.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_10_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_10_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_10_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_1_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_1_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_1_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_3_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_3_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_3_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_5_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_5_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  minival_5_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/mini_val
+  test:
+    ann_file: odinw/VehiclesOpenImages/416x416/test/annotations_without_background.json
+    img_dir: odinw/VehiclesOpenImages/416x416/test
+  train:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/annotations_without_background.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_10_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_10_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_10_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_1_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_1_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_1_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_3_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_3_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_3_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_5_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_5_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  train_5_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/train
+  val:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/annotations_without_background.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_10_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_10_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_10_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_1_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_1_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_1_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_3_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_3_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_3_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_5_3:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_5_30:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+  val_5_300:
+    ann_file: odinw/VehiclesOpenImages/416x416/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/VehiclesOpenImages/416x416/valid
+WildfireSmoke:
+  test:
+    ann_file: odinw/WildfireSmoke/test/annotations_without_background.json
+    img_dir: odinw/WildfireSmoke/test
+  train:
+    ann_file: odinw/WildfireSmoke/train/annotations_without_background.json
+    img_dir: odinw/WildfireSmoke/train
+  train_10_3:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/WildfireSmoke/train
+  train_10_30:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/WildfireSmoke/train
+  train_10_300:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/WildfireSmoke/train
+  train_1_3:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/WildfireSmoke/train
+  train_1_30:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/WildfireSmoke/train
+  train_1_300:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/WildfireSmoke/train
+  train_3_3:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/WildfireSmoke/train
+  train_3_30:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/WildfireSmoke/train
+  train_3_300:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/WildfireSmoke/train
+  train_5_3:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/WildfireSmoke/train
+  train_5_30:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/WildfireSmoke/train
+  train_5_300:
+    ann_file: odinw/WildfireSmoke/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/WildfireSmoke/train
+  val:
+    ann_file: odinw/WildfireSmoke/valid/annotations_without_background.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_10_3:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_10_30:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_10_300:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_1_3:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_1_30:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_1_300:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_3_3:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_3_30:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_3_300:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_5_3:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_5_30:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/WildfireSmoke/valid
+  val_5_300:
+    ann_file: odinw/WildfireSmoke/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/WildfireSmoke/valid
+boggleBoards_416x416AutoOrient_export_:
+  test:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/test_annotations_without_background.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/train_annotations_without_background.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_10_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot10_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_10_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot10_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_10_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot10_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_1_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot1_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_1_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot1_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_1_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot1_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_3_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot3_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_3_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot3_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_3_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot3_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_5_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot5_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_5_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot5_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  train_5_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_train_shot5_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/val_annotations_without_background.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_10_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot10_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_10_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot10_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_10_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot10_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_1_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot1_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_1_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot1_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_1_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot1_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_3_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot3_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_3_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot3_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_3_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot3_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_5_3:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot5_seed3.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_5_30:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot5_seed30.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+  val_5_300:
+    ann_file: odinw/boggleBoards/416x416AutoOrient/export/fewshot_val_shot5_seed300.json
+    img_dir: odinw/boggleBoards/416x416AutoOrient/export/
+brackishUnderwater_960x540:
+  minival:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/annotations_without_background.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_10_3:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_10_30:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_10_300:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_1_3:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_1_30:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_1_300:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_3_3:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_3_30:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_3_300:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_3shot_3seed:
+    ann_file: odinw/original/brackishUnderwater/960x540/mini_val/annotations_without_background_3shot_3seed.json
+    img_dir: odinw/original/brackishUnderwater/960x540/mini_val
+  minival_5_3:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_5_30:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  minival_5_300:
+    ann_file: odinw/brackishUnderwater/960x540/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/mini_val
+  test:
+    ann_file: odinw/brackishUnderwater/960x540/test/annotations_without_background.json
+    img_dir: odinw/brackishUnderwater/960x540/test
+  train:
+    ann_file: odinw/brackishUnderwater/960x540/train/annotations_without_background.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_10_3:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_10_30:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_10_300:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_1_3:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_1_30:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_1_300:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_3_3:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_3_30:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_3_300:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_5_3:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_5_30:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  train_5_300:
+    ann_file: odinw/brackishUnderwater/960x540/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/train
+  val:
+    ann_file: odinw/brackishUnderwater/960x540/valid/annotations_without_background.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_10_3:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_10_30:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_10_300:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_1_3:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_1_30:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_1_300:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_3_3:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_3_30:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_3_300:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_5_3:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_5_30:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+  val_5_300:
+    ann_file: odinw/brackishUnderwater/960x540/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/brackishUnderwater/960x540/valid
+dice_mediumColor_export:
+  test:
+    ann_file: odinw/dice/mediumColor/export/test_annotations_without_background.json
+    img_dir: odinw/dice/mediumColor/export
+  train:
+    ann_file: odinw/dice/mediumColor/export/train_annotations_without_background.json
+    img_dir: odinw/dice/mediumColor/export
+  train_10_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot10_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  train_10_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot10_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  train_10_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot10_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  train_1_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot1_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  train_1_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot1_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  train_1_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot1_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  train_3_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot3_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  train_3_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot3_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  train_3_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot3_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  train_5_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot5_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  train_5_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot5_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  train_5_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_train_shot5_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  val:
+    ann_file: odinw/dice/mediumColor/export/val_annotations_without_background.json
+    img_dir: odinw/dice/mediumColor/export
+  val_10_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot10_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  val_10_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot10_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  val_10_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot10_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  val_1_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot1_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  val_1_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot1_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  val_1_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot1_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  val_3_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot3_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  val_3_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot3_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  val_3_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot3_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+  val_5_3:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot5_seed3.json
+    img_dir: odinw/dice/mediumColor/export
+  val_5_30:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot5_seed30.json
+    img_dir: odinw/dice/mediumColor/export
+  val_5_300:
+    ann_file: odinw/dice/mediumColor/export/fewshot_val_shot5_seed300.json
+    img_dir: odinw/dice/mediumColor/export
+openPoetryVision_512x512:
+  minival:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/annotations_without_background.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_10_3:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_10_30:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_10_300:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_1_3:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_1_30:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_1_300:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_3_3:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_3_30:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_3_300:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_5_3:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_5_30:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  minival_5_300:
+    ann_file: odinw/openPoetryVision/512x512/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/mini_val
+  test:
+    ann_file: odinw/openPoetryVision/512x512/test/annotations_without_background.json
+    img_dir: odinw/openPoetryVision/512x512/test
+  train:
+    ann_file: odinw/openPoetryVision/512x512/train/annotations_without_background.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_10_3:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_10_30:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_10_300:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_1_3:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_1_30:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_1_300:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_3_3:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_3_30:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_3_300:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_5_3:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_5_30:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  train_5_300:
+    ann_file: odinw/openPoetryVision/512x512/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/train
+  val:
+    ann_file: odinw/openPoetryVision/512x512/valid/annotations_without_background.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_10_3:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_10_30:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_10_300:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_1_3:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_1_30:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_1_300:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_3_3:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_3_30:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_3_300:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_5_3:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_5_30:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+  val_5_300:
+    ann_file: odinw/openPoetryVision/512x512/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/openPoetryVision/512x512/valid
+pistols_export:
+  test:
+    ann_file: odinw/pistols/export/test_annotations_without_background.json
+    img_dir: odinw/pistols/export
+  train:
+    ann_file: odinw/pistols/export/train_annotations_without_background.json
+    img_dir: odinw/pistols/export
+  train_10_3:
+    ann_file: odinw/pistols/export/fewshot_train_shot10_seed3.json
+    img_dir: odinw/pistols/export
+  train_10_30:
+    ann_file: odinw/pistols/export/fewshot_train_shot10_seed30.json
+    img_dir: odinw/pistols/export
+  train_10_300:
+    ann_file: odinw/pistols/export/fewshot_train_shot10_seed300.json
+    img_dir: odinw/pistols/export
+  train_1_3:
+    ann_file: odinw/pistols/export/fewshot_train_shot1_seed3.json
+    img_dir: odinw/pistols/export
+  train_1_30:
+    ann_file: odinw/pistols/export/fewshot_train_shot1_seed30.json
+    img_dir: odinw/pistols/export
+  train_1_300:
+    ann_file: odinw/pistols/export/fewshot_train_shot1_seed300.json
+    img_dir: odinw/pistols/export
+  train_3_3:
+    ann_file: odinw/pistols/export/fewshot_train_shot3_seed3.json
+    img_dir: odinw/pistols/export
+  train_3_30:
+    ann_file: odinw/pistols/export/fewshot_train_shot3_seed30.json
+    img_dir: odinw/pistols/export
+  train_3_300:
+    ann_file: odinw/pistols/export/fewshot_train_shot3_seed300.json
+    img_dir: odinw/pistols/export
+  train_5_3:
+    ann_file: odinw/pistols/export/fewshot_train_shot5_seed3.json
+    img_dir: odinw/pistols/export
+  train_5_30:
+    ann_file: odinw/pistols/export/fewshot_train_shot5_seed30.json
+    img_dir: odinw/pistols/export
+  train_5_300:
+    ann_file: odinw/pistols/export/fewshot_train_shot5_seed300.json
+    img_dir: odinw/pistols/export
+  val:
+    ann_file: odinw/pistols/export/val_annotations_without_background.json
+    img_dir: odinw/pistols/export
+  val_10_3:
+    ann_file: odinw/pistols/export/fewshot_val_shot10_seed3.json
+    img_dir: odinw/pistols/export
+  val_10_30:
+    ann_file: odinw/pistols/export/fewshot_val_shot10_seed30.json
+    img_dir: odinw/pistols/export
+  val_10_300:
+    ann_file: odinw/pistols/export/fewshot_val_shot10_seed300.json
+    img_dir: odinw/pistols/export
+  val_1_3:
+    ann_file: odinw/pistols/export/fewshot_val_shot1_seed3.json
+    img_dir: odinw/pistols/export
+  val_1_30:
+    ann_file: odinw/pistols/export/fewshot_val_shot1_seed30.json
+    img_dir: odinw/pistols/export
+  val_1_300:
+    ann_file: odinw/pistols/export/fewshot_val_shot1_seed300.json
+    img_dir: odinw/pistols/export
+  val_3_3:
+    ann_file: odinw/pistols/export/fewshot_val_shot3_seed3.json
+    img_dir: odinw/pistols/export
+  val_3_30:
+    ann_file: odinw/pistols/export/fewshot_val_shot3_seed30.json
+    img_dir: odinw/pistols/export
+  val_3_300:
+    ann_file: odinw/pistols/export/fewshot_val_shot3_seed300.json
+    img_dir: odinw/pistols/export
+  val_5_3:
+    ann_file: odinw/pistols/export/fewshot_val_shot5_seed3.json
+    img_dir: odinw/pistols/export
+  val_5_30:
+    ann_file: odinw/pistols/export/fewshot_val_shot5_seed30.json
+    img_dir: odinw/pistols/export
+  val_5_300:
+    ann_file: odinw/pistols/export/fewshot_val_shot5_seed300.json
+    img_dir: odinw/pistols/export
+plantdoc_416x416:
+  test:
+    ann_file: odinw/plantdoc/416x416/test/annotations_without_background.json
+    img_dir: odinw/plantdoc/416x416/test
+  train:
+    ann_file: odinw/plantdoc/416x416/train/annotations_without_background.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_10_3:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_10_30:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_10_300:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_1_3:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_1_30:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_1_300:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_3_3:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_3_30:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_3_300:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_5_3:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_5_30:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/plantdoc/416x416/train
+  train_5_300:
+    ann_file: odinw/plantdoc/416x416/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/plantdoc/416x416/train
+  val:
+    ann_file: odinw/plantdoc/416x416/valid/annotations_without_background.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_10_3:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_10_30:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_10_300:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_1_3:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_1_30:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_1_300:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_3_3:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_3_30:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_3_300:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_5_3:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_5_30:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/plantdoc/416x416/valid
+  val_5_300:
+    ann_file: odinw/plantdoc/416x416/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/plantdoc/416x416/valid
+pothole:
+  test:
+    ann_file: odinw/pothole/test/annotations_without_background.json
+    img_dir: odinw/pothole/test
+  train:
+    ann_file: odinw/pothole/train/annotations_without_background.json
+    img_dir: odinw/pothole/train
+  train_10_3:
+    ann_file: odinw/pothole/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/pothole/train
+  train_10_30:
+    ann_file: odinw/pothole/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/pothole/train
+  train_10_300:
+    ann_file: odinw/pothole/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/pothole/train
+  train_1_3:
+    ann_file: odinw/pothole/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/pothole/train
+  train_1_30:
+    ann_file: odinw/pothole/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/pothole/train
+  train_1_300:
+    ann_file: odinw/pothole/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/pothole/train
+  train_3_3:
+    ann_file: odinw/pothole/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/pothole/train
+  train_3_30:
+    ann_file: odinw/pothole/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/pothole/train
+  train_3_300:
+    ann_file: odinw/pothole/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/pothole/train
+  train_5_3:
+    ann_file: odinw/pothole/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/pothole/train
+  train_5_30:
+    ann_file: odinw/pothole/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/pothole/train
+  train_5_300:
+    ann_file: odinw/pothole/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/pothole/train
+  val:
+    ann_file: odinw/pothole/valid/annotations_without_background.json
+    img_dir: odinw/pothole/valid
+  val_10_3:
+    ann_file: odinw/pothole/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/pothole/valid
+  val_10_30:
+    ann_file: odinw/pothole/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/pothole/valid
+  val_10_300:
+    ann_file: odinw/pothole/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/pothole/valid
+  val_1_3:
+    ann_file: odinw/pothole/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/pothole/valid
+  val_1_30:
+    ann_file: odinw/pothole/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/pothole/valid
+  val_1_300:
+    ann_file: odinw/pothole/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/pothole/valid
+  val_3_3:
+    ann_file: odinw/pothole/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/pothole/valid
+  val_3_30:
+    ann_file: odinw/pothole/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/pothole/valid
+  val_3_300:
+    ann_file: odinw/pothole/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/pothole/valid
+  val_5_3:
+    ann_file: odinw/pothole/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/pothole/valid
+  val_5_30:
+    ann_file: odinw/pothole/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/pothole/valid
+  val_5_300:
+    ann_file: odinw/pothole/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/pothole/valid
+selfdrivingCar_fixedLarge_export_:
+  test:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/test_annotations_without_background.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/train_annotations_without_background.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_10_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot10_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_10_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot10_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_10_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot10_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_1_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot1_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_1_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot1_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_1_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot1_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_3_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot3_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_3_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot3_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_3_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot3_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_5_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot5_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_5_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot5_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  train_5_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_train_shot5_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/val_annotations_without_background.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_10_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot10_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_10_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot10_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_10_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot10_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_1_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot1_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_1_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot1_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_1_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot1_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_3_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot3_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_3_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot3_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_3_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot3_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_5_3:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot5_seed3.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_5_30:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot5_seed30.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+  val_5_300:
+    ann_file: odinw/selfdrivingCar/fixedLarge/export/fewshot_val_shot5_seed300.json
+    img_dir: odinw/selfdrivingCar/fixedLarge/export/
+thermalDogsAndPeople:
+  test:
+    ann_file: odinw/thermalDogsAndPeople/test/annotations_without_background.json
+    img_dir: odinw/thermalDogsAndPeople/test
+  train:
+    ann_file: odinw/thermalDogsAndPeople/train/annotations_without_background.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_10_3:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_10_30:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_10_300:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_1_3:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_1_30:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_1_300:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_3_3:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_3_30:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_3_300:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_5_3:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_5_30:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  train_5_300:
+    ann_file: odinw/thermalDogsAndPeople/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/train
+  val:
+    ann_file: odinw/thermalDogsAndPeople/valid/annotations_without_background.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_10_3:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_10_30:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_10_300:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_1_3:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_1_30:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_1_300:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_3_3:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_3_30:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_3_300:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_5_3:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_5_30:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+  val_5_300:
+    ann_file: odinw/thermalDogsAndPeople/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/thermalDogsAndPeople/valid
+websiteScreenshots:
+  minival:
+    ann_file: odinw/websiteScreenshots/mini_val/annotations_without_background.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_10_3:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot10_seed3.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_10_30:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot10_seed30.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_10_300:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot10_seed300.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_1_3:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot1_seed3.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_1_30:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot1_seed30.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_1_300:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot1_seed300.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_3_3:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot3_seed3.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_3_30:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot3_seed30.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_3_300:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot3_seed300.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_5_3:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot5_seed3.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_5_30:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot5_seed30.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  minival_5_300:
+    ann_file: odinw/websiteScreenshots/mini_val/fewshot_minival_shot5_seed300.json
+    img_dir: odinw/websiteScreenshots/mini_val
+  test:
+    ann_file: odinw/websiteScreenshots/test/annotations_without_background.json
+    img_dir: odinw/websiteScreenshots/test
+  train:
+    ann_file: odinw/websiteScreenshots/train/annotations_without_background.json
+    img_dir: odinw/websiteScreenshots/train
+  train_10_3:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot10_seed3.json
+    img_dir: odinw/websiteScreenshots/train
+  train_10_30:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot10_seed30.json
+    img_dir: odinw/websiteScreenshots/train
+  train_10_300:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot10_seed300.json
+    img_dir: odinw/websiteScreenshots/train
+  train_1_3:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot1_seed3.json
+    img_dir: odinw/websiteScreenshots/train
+  train_1_30:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot1_seed30.json
+    img_dir: odinw/websiteScreenshots/train
+  train_1_300:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot1_seed300.json
+    img_dir: odinw/websiteScreenshots/train
+  train_3_3:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot3_seed3.json
+    img_dir: odinw/websiteScreenshots/train
+  train_3_30:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot3_seed30.json
+    img_dir: odinw/websiteScreenshots/train
+  train_3_300:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot3_seed300.json
+    img_dir: odinw/websiteScreenshots/train
+  train_5_3:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot5_seed3.json
+    img_dir: odinw/websiteScreenshots/train
+  train_5_30:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot5_seed30.json
+    img_dir: odinw/websiteScreenshots/train
+  train_5_300:
+    ann_file: odinw/websiteScreenshots/train/fewshot_train_shot5_seed300.json
+    img_dir: odinw/websiteScreenshots/train
+  val:
+    ann_file: odinw/websiteScreenshots/valid/annotations_without_background.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_10_3:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot10_seed3.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_10_30:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot10_seed30.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_10_300:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot10_seed300.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_1_3:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot1_seed3.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_1_30:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot1_seed30.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_1_300:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot1_seed300.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_3_3:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot3_seed3.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_3_30:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot3_seed30.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_3_300:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot3_seed300.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_5_3:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot5_seed3.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_5_30:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot5_seed30.json
+    img_dir: odinw/websiteScreenshots/valid
+  val_5_300:
+    ann_file: odinw/websiteScreenshots/valid/fewshot_val_shot5_seed300.json
+    img_dir: odinw/websiteScreenshots/valid

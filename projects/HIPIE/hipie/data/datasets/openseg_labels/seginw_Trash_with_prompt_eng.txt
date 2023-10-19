@@ -1,0 +1,22 @@
+0:Aluminium foil
+1:Cigarette
+2:Clear plastic bottle
+3:Corrugated carton
+4:Disposable plastic cup
+5:Drink Can
+6:Egg Carton
+7:Foam cup
+8:Food Can
+9:Garbage bag
+10:Glass bottle
+11:Glass cup
+12:Metal bottle cap
+13:Other carton
+14:Other plastic bottle
+15:Paper cup
+16:Plastic bag - wrapper
+17:Plastic bottle cap
+18:Plastic lid
+19:Plastic straw
+20:Pop tab
+21:Styrofoam piece

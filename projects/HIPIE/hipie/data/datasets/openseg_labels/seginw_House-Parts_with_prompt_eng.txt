@@ -1,0 +1,12 @@
+0:aluminium door
+1:aluminium window
+2:cellar window
+3:mint cond roof
+4:plaster
+5:plastic door
+6:plastic window
+7:plate fascade
+8:wooden door
+9:wooden fascade
+10:wooden window
+11:worn cond roof

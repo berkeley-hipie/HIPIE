@@ -1,0 +1,9 @@
+0:background
+1:follow
+2:follow_hand
+3:land
+4:land_hand
+5:null
+6:object
+7:takeoff
+8:takeoff-hand

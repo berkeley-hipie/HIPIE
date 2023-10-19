@@ -1,0 +1,12 @@
+0:background
+1:biker
+2:car
+3:pedestrian
+4:trafficLight
+5:trafficLight-Green
+6:trafficLight-GreenLeft
+7:trafficLight-Red
+8:trafficLight-RedLeft
+9:trafficLight-Yellow
+10:trafficLight-YellowLeft
+11:truck

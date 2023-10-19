@@ -1,0 +1,7 @@
+0:background
+1:crab
+2:fish
+3:jellyfish
+4:shrimp
+5:small_fish
+6:starfish

@@ -1,0 +1,365 @@
+1:person
+2:sneakers
+3:chair
+4:other shoes
+5:hat
+6:car
+7:lamp
+8:glasses
+9:bottle
+10:desk
+11:cup
+12:street lights
+13:cabinet,shelf
+14:handbag,satchel
+15:bracelet
+16:plate
+17:picture,frame
+18:helmet
+19:book
+20:gloves
+21:storage box
+22:boat
+23:leather shoes
+24:flower
+25:bench
+26:potted plant
+27:bowl,basin
+28:flag
+29:pillow
+30:boots
+31:vase
+32:microphone
+33:necklace
+34:ring
+35:suv
+36:wine glass
+37:belt
+38:moniter,tv
+39:backpack
+40:umbrella
+41:traffic light
+42:speaker
+43:watch
+44:tie
+45:trash bin can
+46:slippers
+47:bicycle
+48:stool
+49:barrel,bucket
+50:van
+51:couch
+52:sandals
+53:bakset
+54:drum
+55:pen,pencil
+56:bus
+57:wild bird
+58:high heels
+59:motorcycle
+60:guitar
+61:carpet
+62:cell phone
+63:bread
+64:camera
+65:canned
+66:truck
+67:traffic cone
+68:cymbal
+69:lifesaver
+70:towel
+71:stuffed toy
+72:candle
+73:sailboat
+74:laptop
+75:awning
+76:bed
+77:faucet
+78:tent
+79:horse
+80:mirror
+81:power outlet
+82:sink
+83:apple
+84:air conditioner
+85:knife
+86:hockey stick
+87:paddle
+88:pickup truck
+89:fork
+90:traffic sign
+91:ballon
+92:tripod
+93:dog
+94:spoon
+95:clock
+96:pot
+97:cow
+98:cake
+99:dinning table
+100:sheep
+101:hanger
+102:blackboard,whiteboard
+103:napkin
+104:other fish
+105:orange,tangerine
+106:toiletry
+107:keyboard
+108:tomato
+109:lantern
+110:machinery vehicle
+111:fan
+112:green vegetables
+113:banana
+114:baseball glove
+115:airplane
+116:mouse
+117:train
+118:pumpkin
+119:soccer
+120:skiboard
+121:luggage
+122:nightstand
+123:tea pot
+124:telephone
+125:trolley
+126:head phone
+127:sports car
+128:stop sign
+129:dessert
+130:scooter
+131:stroller
+132:crane
+133:remote
+134:refrigerator
+135:oven
+136:lemon
+137:duck
+138:baseball bat
+139:surveillance camera
+140:cat
+141:jug
+142:broccoli
+143:piano
+144:pizza
+145:elephant
+146:skateboard
+147:surfboard
+148:gun
+149:skating and skiing shoes
+150:gas stove
+151:donut
+152:bow tie
+153:carrot
+154:toilet
+155:kite
+156:strawberry
+157:other balls
+158:shovel
+159:pepper
+160:computer box
+161:toilet paper
+162:cleaning products
+163:chopsticks
+164:microwave
+165:pigeon
+166:baseball
+167:cutting,chopping board
+168:coffee table
+169:side table
+170:scissors
+171:marker
+172:pie
+173:ladder
+174:snowboard
+175:cookies
+176:radiator
+177:fire hydrant
+178:basketball
+179:zebra
+180:grape
+181:giraffe
+182:potato
+183:sausage
+184:tricycle
+185:violin
+186:egg
+187:fire extinguisher
+188:candy
+189:fire truck
+190:billards
+191:converter
+192:bathtub
+193:wheelchair
+194:golf club
+195:briefcase
+196:cucumber
+197:cigar,cigarette 
+198:paint brush
+199:pear
+200:heavy truck
+201:hamburger
+202:extractor
+203:extention cord
+204:tong
+205:tennis racket
+206:folder
+207:american football
+208:earphone
+209:mask
+210:kettle
+211:tennis
+212:ship
+213:swing
+214:coffee machine
+215:slide
+216:carriage
+217:onion
+218:green beans
+219:projector
+220:frisbee
+221:washing machine,drying machine
+222:chicken
+223:printer
+224:watermelon
+225:saxophone
+226:tissue
+227:toothbrush
+228:ice cream
+229:hotair ballon
+230:cello
+231:french fries
+232:scale
+233:trophy
+234:cabbage
+235:hot dog
+236:blender
+237:peach
+238:rice
+239:wallet,purse
+240:volleyball
+241:deer
+242:goose
+243:tape
+244:tablet
+245:cosmetics
+246:trumpet
+247:pineapple
+248:golf ball
+249:ambulance
+250:parking meter
+251:mango
+252:key
+253:hurdle
+254:fishing rod
+255:medal
+256:flute
+257:brush
+258:penguin
+259:megaphone
+260:corn
+261:lettuce
+262:garlic
+263:swan
+264:helicopter
+265:green onion
+266:sandwich
+267:nuts
+268:speed limit sign
+269:induction cooker
+270:broom
+271:trombone
+272:plum
+273:rickshaw
+274:goldfish
+275:kiwi fruit
+276:router,modem
+277:poker card
+278:toaster
+279:shrimp
+280:sushi
+281:cheese
+282:notepaper
+283:cherry
+284:pliers
+285:cd
+286:pasta
+287:hammer
+288:cue
+289:avocado
+290:hamimelon
+291:flask
+292:mushroon
+293:screwdriver
+294:soap
+295:recorder
+296:bear
+297:eggplant
+298:board eraser
+299:coconut
+300:tape measur, ruler
+301:pig
+302:showerhead
+303:globe
+304:chips
+305:steak
+306:crosswalk sign
+307:stapler
+308:campel
+309:formula 1 
+310:pomegranate
+311:dishwasher
+312:crab
+313:hoverboard
+314:meat ball
+315:rice cooker
+316:tuba
+317:calculator
+318:papaya
+319:antelope
+320:parrot
+321:seal
+322:buttefly
+323:dumbbell
+324:donkey
+325:lion
+326:urinal
+327:dolphin
+328:electric drill
+329:hair dryer
+330:egg tart
+331:jellyfish
+332:treadmill
+333:lighter
+334:grapefruit
+335:game board
+336:mop
+337:radish
+338:baozi
+339:target
+340:french
+341:spring rolls
+342:monkey
+343:rabbit
+344:pencil case
+345:yak
+346:red cabbage
+347:binoculars
+348:asparagus
+349:barbell
+350:scallop
+351:noddles
+352:comb
+353:dumpling
+354:oyster
+355:table teniis paddle
+356:cosmetics brush,eyeliner pencil
+357:chainsaw
+358:eraser
+359:lobster
+360:durian
+361:okra
+362:lipstick
+363:cosmetics mirror
+364:curling
+365:table tennis 
