@@ -818,6 +818,10 @@ PASCAL_PARTS_PARTS_ONLY = [{'id': 1, 'name': 'aeroplane body', 'color': [30, 178
  {'id': 55, 'name': 'train body', 'color': [168, 7, 178]},
  {'id': 56, 'name': 'tvmonitor frame', 'color': [59, 89, 2]},
  {'id': 57, 'name': 'tvmonitor screen', 'color': [51, 85, 167]}]
+
+THINGS_CLASSES_WITH_PART = [
+    'aeroplane','bicycle','bird','bottle','bus','car','cat','cow','dog','horse','motorbike','person','pottedplant','sheep','train','tvmonitor'
+]
 def _get_ctx59_meta():
     # Id 0 is reserved for ignore_label, we change ignore_label for 0
     # to 255 in our pre-processing, so all ids are shifted by 1.
@@ -1139,6 +1143,7 @@ def register_all_pascal_parts(root):
             evaluator_type="sem_seg",
             label_group=PASCAL_LABEL_PART_GROUP,
             ignore_label=0,  # NOTE: gt is saved in 16-bit TIFF images
+            thing_classes_with_parts = THINGS_CLASSES_WITH_PART,
         )
 
 # register_all_ctx59(os.getenv("DETECTRON2_DATASETS", "datasets"))
