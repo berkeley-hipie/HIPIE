@@ -261,8 +261,6 @@ def main(args):
     if comm.is_main_process():
         wandb.init(sync_tensorboard=True,
                    name=args.name
-                #    entity='jacklishufan-berkeley',
-                #    project='HIPIE-projects_HIPIE',
                    )
     cfg = setup(args)
     if comm.is_main_process():

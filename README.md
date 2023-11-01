@@ -43,7 +43,7 @@ We release three [checkpoints](https://drive.google.com/drive/folders/1_kD3XILU1
 
 The following code will train model on one node with 8 A100 GPUS
 ```
-python3 launch.py --nn 1 --np 8 --uni 1 --config-file /projects/HIPIE/configs/<config file>  MODEL.WEIGHTS <pretrained checkpoint>
+python3 launch.py --nn 1 --np 8 --uni 1 --config-file projects/HIPIE/configs/<config file>  MODEL.WEIGHTS <pretrained checkpoint>
 ```
 
 
