@@ -32,7 +32,7 @@ HIPIE is also capable of labeling segmentation masks from SAM and can even ident
 Please check our [project page](http://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/) for more demos!
 
 ## Model Zoo
-We release three [checkpoints](https://drive.google.com/drive/folders/1_kD3XILU1DC8uGn4vMGHgglDVlCl1U0W?usp=sharing) at the moment.
+We release three [checkpoints](https://drive.google.com/drive/folders/1HEmCCRaWv6CEkim-PY6Qv4jGtdKvw8VH?usp=sharing) at the moment.
 
 - ResNet-50 Pretrained with O365,COCO,RefCOCO,Pascal Panoptic Parts
 - ViT-H Pretrained with O365 and finetuned on COCO,RefCOCO
