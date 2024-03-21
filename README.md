@@ -1,5 +1,8 @@
 # HIPIE: Hierarchical Open-vocabulary Universal Image Segmentation
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchical-open-vocabulary-universal-image-1/referring-expression-segmentation-on-refcoco)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco?p=hierarchical-open-vocabulary-universal-image-1) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchical-open-vocabulary-universal-image-1/referring-expression-segmentation-on-refcoco-3)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-3?p=hierarchical-open-vocabulary-universal-image-1) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchical-open-vocabulary-universal-image-1/image-segmentation-on-pascal-panoptic-parts)](https://paperswithcode.com/sota/image-segmentation-on-pascal-panoptic-parts?p=hierarchical-open-vocabulary-universal-image-1) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchical-open-vocabulary-universal-image-1/zero-shot-segmentation-on-segmentation-in-the)](https://paperswithcode.com/sota/zero-shot-segmentation-on-segmentation-in-the?p=hierarchical-open-vocabulary-universal-image-1) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchical-open-vocabulary-universal-image-1/panoptic-segmentation-on-coco-minival)](https://paperswithcode.com/sota/panoptic-segmentation-on-coco-minival?p=hierarchical-open-vocabulary-universal-image-1) 
+
+
 We present **HIPIE**, a novel HIerarchical, oPen-vocabulary and unIvErsal image segmentation and detection model that is capable of performing segmentation tasks at various levels of granularities (whole, part and subpart) and tasks, including semantic segmentation, instance segmentation, panoptic segmentation, referring segmentation, and part/subpart segmentation, all within a unified framework of language-guided segmentation. 
 
 <p align="center"> <img src='assets/teaser.png' align="center" > </p>            
@@ -32,7 +35,7 @@ HIPIE is also capable of labeling segmentation masks from SAM and can even ident
 Please check our [project page](http://people.eecs.berkeley.edu/~xdwang/projects/HIPIE/) for more demos!
 
 ## Model Zoo
-We release three [checkpoints](https://drive.google.com/drive/folders/1HEmCCRaWv6CEkim-PY6Qv4jGtdKvw8VH?usp=sharing) at the moment.
+We release the following [checkpoints](https://drive.google.com/drive/folders/1HEmCCRaWv6CEkim-PY6Qv4jGtdKvw8VH?usp=sharing) at the moment.
 
 - ResNet-50 Pretrained with O365,COCO,RefCOCO,Pascal Panoptic Parts
 - ViT-H Pretrained with O365 and finetuned on COCO,RefCOCO
@@ -174,12 +177,10 @@ If you have any general questions, feel free to email us at [Xudong Wang](mailto
 ## Citation
 If you find our work inspiring or use our codebase in your research, please consider giving a star ⭐ and a citation.
 ```
-@misc{wang2023hierarchical,
-  title={Hierarchical Open-vocabulary Universal Image Segmentation}, 
-  author={Xudong Wang and Shufan Li and Konstantinos Kallidromitis and Yusuke Kato and Kazuki Kozuka and Trevor Darrell},
-  year={2023},
-  eprint={2307.00764},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+@inproceedings{wang2023hierarchical,
+  title={Hierarchical Open-vocabulary Universal Image Segmentation},
+  author={Wang, Xudong and Li, Shufan and Kallidromitis, Konstantinos and Kato, Yusuke and Kozuka, Kazuki and Darrell, Trevor},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
 }
 ```
